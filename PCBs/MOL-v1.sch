@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6824,6 +6824,105 @@ ULN and UDN Series&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="Daniel">
+<packages>
+<package name="TR2-SWITCH-MOMENTARY-LED">
+<wire x1="0.635" y1="0.635" x2="-0.635" y2="0.635" width="0.3048" layer="21"/>
+<wire x1="-0.635" y1="0.635" x2="0" y2="-0.635" width="0.3048" layer="21"/>
+<wire x1="0" y1="-0.635" x2="0.635" y2="0.635" width="0.3048" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="0" y2="-0.635" width="0.3048" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-0.635" width="0.3048" layer="21"/>
+<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
+<pad name="4" x="-2.54" y="2.54" drill="0.8" diameter="1.6764"/>
+<pad name="2" x="2.54" y="2.54" drill="0.8" diameter="1.6764"/>
+<pad name="3" x="-2.54" y="-2.54" drill="0.8" diameter="1.6764"/>
+<pad name="1" x="2.54" y="-2.54" drill="0.8" diameter="1.6764"/>
+<pad name="A" x="0" y="2.54" drill="0.8" diameter="1.6764"/>
+<pad name="C" x="0" y="-2.54" drill="0.8" diameter="1.6764"/>
+<text x="2.312" y="-4.858" size="0.762" layer="21" font="vector" ratio="15">1</text>
+<text x="2.349" y="4.159" size="0.762" layer="21" font="vector" ratio="15">2</text>
+<text x="-2.895" y="-4.778" size="0.762" layer="21" font="vector" ratio="15">3</text>
+<text x="-2.985" y="4.112" size="0.762" layer="21" font="vector" ratio="15">4</text>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-3.81" x2="-3.81" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-3.81" x2="3.81" y2="3.81" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="3.81" x2="1.27" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="3.81" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.81" x2="3.81" y2="3.81" width="0.127" layer="21"/>
+<circle x="-1.206" y="3.873" radius="0.1524" width="0.3302" layer="21"/>
+<circle x="1.334" y="3.873" radius="0.1524" width="0.3302" layer="21"/>
+<circle x="-2.54" y="-1.27" radius="0.127" width="0.127" layer="21"/>
+<circle x="-2.54" y="1.27" radius="0.127" width="0.127" layer="21"/>
+<circle x="2.54" y="-1.27" radius="0.127" width="0.127" layer="21"/>
+<circle x="2.54" y="1.27" radius="0.127" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TR2-SWITCH-MOMENTARY-LED">
+<description>SWITCH PUSH SPST-NO 10MA 12V</description>
+<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="-4.572" x2="0.889" y2="-5.969" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="-4.445" x2="2.032" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<text x="-4.064" y="4.572" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.572" y="-8.382" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="3" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
+<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="A" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="C" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.889" y="-5.969"/>
+<vertex x="0" y="-5.588"/>
+<vertex x="0.508" y="-5.08"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.032" y="-5.842"/>
+<vertex x="1.143" y="-5.461"/>
+<vertex x="1.651" y="-4.953"/>
+</polygon>
+<pin name="4" x="-5.08" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.2032" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SW-LED" prefix="S">
+<description>SWITCH PUSH SPST-NO 10MA 12V</description>
+<gates>
+<gate name="G$1" symbol="TR2-SWITCH-MOMENTARY-LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PTH" package="TR2-SWITCH-MOMENTARY-LED">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6902,6 +7001,8 @@ ULN and UDN Series&lt;p&gt;
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
+<part name="S1" library="Daniel" deviceset="SW-LED" device="PTH"/>
+<part name="S2" library="Daniel" deviceset="SW-LED" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -7123,6 +7224,8 @@ This is better than the smaller one we found because it has a built in voltage m
 <instance part="+3V4" gate="G$1" x="510.54" y="533.4"/>
 <instance part="+3V5" gate="G$1" x="543.56" y="530.86"/>
 <instance part="+3V6" gate="G$1" x="660.4" y="533.4"/>
+<instance part="S1" gate="G$1" x="327.66" y="287.02"/>
+<instance part="S2" gate="G$1" x="345.44" y="287.02"/>
 </instances>
 <busses>
 </busses>
