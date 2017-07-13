@@ -1,6 +1,6 @@
 Pinlist
 
-Exported from MOL-v1.1.brd at 7/12/17 11:51 AM
+Exported from MOL-v1.1.brd at 7/13/17 9:54 AM
 
 EAGLE Version 8.2.2 Copyright (c) 1988-2017 Autodesk, Inc.
 
@@ -263,9 +263,9 @@ TEENSY   0        M_JOYB
          11       B1
          12       B2
          13                *** unconnected ***
-         14       A1
-         15       A2
-         16       A3
+         14       AN1
+         15       AN2
+         16       AN3
          17       M_JOYV
          18       M_JOYH
          19       S_JOYV
@@ -282,13 +282,13 @@ TEENSY   0        M_JOYB
          30       L10
          31       L11
          32       L12
-         33       A4
-         34       A5
-         35       A6
-         36       A7
+         33       AN4
+         34       AN5
+         35       AN6
+         36       AN7
          37       L10
          38       L11
-         39       A8
+         39       AN8
          40       M_AIN
          41       M_BIN
          42       B8
@@ -320,13 +320,13 @@ TEENSY   0        M_JOYB
          G4       GND
          G5       GND
          G6       GND
-         A10      A11
-         A11      A12
+         A10      AN11
+         A11      AN12
          VIN               *** unconnected ***
          AGND     AGND
          AREF              *** unconnected ***
-         DAC0     A9
-         DAC1     A10
+         DAC0     AN9
+         DAC1     AN10
          VBAT              *** unconnected ***
          VUSB              *** unconnected ***
          3V3(1)   +3V3
