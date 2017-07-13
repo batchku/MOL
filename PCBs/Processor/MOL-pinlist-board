@@ -1,6 +1,6 @@
 Pinlist
 
-Exported from MOL-v1.1.brd at 7/13/17 9:54 AM
+Exported from MOL-v1.1.brd at 7/13/17 10:36 AM
 
 EAGLE Version 8.2.2 Copyright (c) 1988-2017 Autodesk, Inc.
 
@@ -61,27 +61,27 @@ J2       1        GND
          3        S2
 
 J3       1        +3V3
-         2        A1
+         2        AN1
          3        AGND
 
 J4       1        +3V3
-         2        A2
+         2        AN2
          3        AGND
 
 J5       1        +3V3
-         2        A5
+         2        AN5
          3        AGND
 
 J6       1        +3V3
-         2        A6
+         2        AN6
          3        AGND
 
 J7       1        +3V3
-         2        A9
+         2        AN9
          3        AGND
 
 J8       1        +3V3
-         2        A10
+         2        AN10
          3        AGND
 
 LED13    A        N$2
@@ -335,73 +335,73 @@ TEENSY   0        M_JOYB
          3V3(4)   +3V3
 
 TM1      1        +3V3
-         2        A1
+         2        AN1
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM2      1        +3V3
-         2        A2
+         2        AN2
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM3      1        +3V3
-         2        A3
+         2        AN3
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM4      1        +3V3
-         2        A4
+         2        AN4
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM5      1        +3V3
-         2        A5
+         2        AN5
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM6      1        +3V3
-         2        A6
+         2        AN6
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM7      1        +3V3
-         2        A7
+         2        AN7
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM8      1        +3V3
-         2        A8
+         2        AN8
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM9      1        +3V3
-         2        A9
+         2        AN9
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM10     1        +3V3
-         2        A10
+         2        AN10
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM11     1        +3V3
-         2        A11
+         2        AN11
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM12     1        +3V3
-         2        A12
+         2        AN12
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***

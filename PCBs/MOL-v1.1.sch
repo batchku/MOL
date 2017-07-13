@@ -6810,101 +6810,6 @@ This is better than the smaller one we found because it has a built in voltage m
 <junction x="132.08" y="-7.62"/>
 </segment>
 </net>
-<net name="A1" class="3">
-<segment>
-<pinref part="TM1" gate="G$1" pin="S"/>
-<wire x1="-83.82" y1="-81.28" x2="-86.36" y2="-81.28" width="0.1524" layer="91"/>
-<label x="-86.36" y="-81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="-152.4" y1="-81.28" x2="-144.78" y2="-81.28" width="0.1524" layer="91"/>
-<label x="-144.78" y="-81.28" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="A2" class="3">
-<segment>
-<pinref part="TM2" gate="G$1" pin="S"/>
-<wire x1="-45.72" y1="-81.28" x2="-48.26" y2="-81.28" width="0.1524" layer="91"/>
-<label x="-48.26" y="-81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="-152.4" y1="-96.52" x2="-144.78" y2="-96.52" width="0.1524" layer="91"/>
-<label x="-144.78" y="-96.52" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="A3" class="3">
-<segment>
-<pinref part="TM3" gate="G$1" pin="S"/>
-<wire x1="-83.82" y1="-129.54" x2="-86.36" y2="-129.54" width="0.1524" layer="91"/>
-<label x="-86.36" y="-129.54" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A4" class="3">
-<segment>
-<pinref part="TM4" gate="G$1" pin="S"/>
-<wire x1="-43.18" y1="-132.08" x2="-45.72" y2="-132.08" width="0.1524" layer="91"/>
-<label x="-45.72" y="-132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A5" class="3">
-<segment>
-<pinref part="TM5" gate="G$1" pin="S"/>
-<wire x1="10.16" y1="-83.82" x2="7.62" y2="-83.82" width="0.1524" layer="91"/>
-<label x="7.62" y="-83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="-152.4" y1="-111.76" x2="-144.78" y2="-111.76" width="0.1524" layer="91"/>
-<label x="-144.78" y="-111.76" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="A6" class="3">
-<segment>
-<pinref part="TM6" gate="G$1" pin="S"/>
-<wire x1="48.26" y1="-83.82" x2="45.72" y2="-83.82" width="0.1524" layer="91"/>
-<label x="45.72" y="-83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="2"/>
-<wire x1="-124.46" y1="-81.28" x2="-116.84" y2="-81.28" width="0.1524" layer="91"/>
-<label x="-116.84" y="-81.28" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="A7" class="3">
-<segment>
-<pinref part="TM7" gate="G$1" pin="S"/>
-<wire x1="10.16" y1="-132.08" x2="7.62" y2="-132.08" width="0.1524" layer="91"/>
-<label x="7.62" y="-132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A10" class="3">
-<segment>
-<pinref part="TM10" gate="G$1" pin="S"/>
-<wire x1="132.08" y1="-83.82" x2="129.54" y2="-83.82" width="0.1524" layer="91"/>
-<label x="129.54" y="-83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J8" gate="G$1" pin="2"/>
-<wire x1="-124.46" y1="-111.76" x2="-116.84" y2="-111.76" width="0.1524" layer="91"/>
-<label x="-116.84" y="-111.76" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="A11" class="3">
-<segment>
-<pinref part="TM11" gate="G$1" pin="S"/>
-<wire x1="93.98" y1="-132.08" x2="91.44" y2="-132.08" width="0.1524" layer="91"/>
-<label x="91.44" y="-132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A12" class="3">
-<segment>
-<pinref part="TM12" gate="G$1" pin="S"/>
-<wire x1="134.62" y1="-134.62" x2="132.08" y2="-134.62" width="0.1524" layer="91"/>
-<label x="132.08" y="-134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="S_JOYH" class="3">
 <segment>
 <pinref part="U3" gate="G$1" pin="H"/>
@@ -7604,25 +7509,6 @@ This is better than the smaller one we found because it has a built in voltage m
 <label x="-106.68" y="190.5" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="A8" class="3">
-<segment>
-<pinref part="TM8" gate="G$1" pin="S"/>
-<wire x1="50.8" y1="-134.62" x2="48.26" y2="-134.62" width="0.1524" layer="91"/>
-<label x="48.26" y="-134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A9" class="3">
-<segment>
-<pinref part="TM9" gate="G$1" pin="S"/>
-<wire x1="93.98" y1="-83.82" x2="91.44" y2="-83.82" width="0.1524" layer="91"/>
-<label x="91.44" y="-83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="2"/>
-<wire x1="-124.46" y1="-96.52" x2="-116.84" y2="-96.52" width="0.1524" layer="91"/>
-<label x="-116.84" y="-96.52" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -7937,12 +7823,32 @@ This is better than the smaller one we found because it has a built in voltage m
 <wire x1="-73.66" y1="157.48" x2="-78.74" y2="157.48" width="0.1524" layer="91"/>
 <label x="-78.74" y="157.48" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TM1" gate="G$1" pin="S"/>
+<wire x1="-83.82" y1="-81.28" x2="-86.36" y2="-81.28" width="0.1524" layer="91"/>
+<label x="-86.36" y="-81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="-152.4" y1="-81.28" x2="-144.78" y2="-81.28" width="0.1524" layer="91"/>
+<label x="-144.78" y="-81.28" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="AN2" class="3">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="15/A1/CS0-4/T"/>
 <wire x1="-73.66" y1="154.94" x2="-78.74" y2="154.94" width="0.1524" layer="91"/>
 <label x="-78.74" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TM2" gate="G$1" pin="S"/>
+<wire x1="-45.72" y1="-81.28" x2="-48.26" y2="-81.28" width="0.1524" layer="91"/>
+<label x="-48.26" y="-81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="-152.4" y1="-96.52" x2="-144.78" y2="-96.52" width="0.1524" layer="91"/>
+<label x="-144.78" y="-96.52" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AN3" class="3">
@@ -7951,12 +7857,22 @@ This is better than the smaller one we found because it has a built in voltage m
 <wire x1="-73.66" y1="152.4" x2="-78.74" y2="152.4" width="0.1524" layer="91"/>
 <label x="-78.74" y="152.4" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TM3" gate="G$1" pin="S"/>
+<wire x1="-83.82" y1="-129.54" x2="-86.36" y2="-129.54" width="0.1524" layer="91"/>
+<label x="-86.36" y="-129.54" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="AN4" class="3">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="33/A14/CAN1TX/TX5/ALT-SCL0"/>
 <wire x1="-73.66" y1="109.22" x2="-78.74" y2="109.22" width="0.1524" layer="91"/>
 <label x="-78.74" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TM4" gate="G$1" pin="S"/>
+<wire x1="-43.18" y1="-132.08" x2="-45.72" y2="-132.08" width="0.1524" layer="91"/>
+<label x="-45.72" y="-132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AN5" class="3">
@@ -7965,12 +7881,32 @@ This is better than the smaller one we found because it has a built in voltage m
 <wire x1="-73.66" y1="106.68" x2="-78.74" y2="106.68" width="0.1524" layer="91"/>
 <label x="-78.74" y="106.68" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TM5" gate="G$1" pin="S"/>
+<wire x1="10.16" y1="-83.82" x2="7.62" y2="-83.82" width="0.1524" layer="91"/>
+<label x="7.62" y="-83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="-152.4" y1="-111.76" x2="-144.78" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-144.78" y="-111.76" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="AN6" class="3">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="35/A16/PWM"/>
 <wire x1="-73.66" y1="104.14" x2="-78.74" y2="104.14" width="0.1524" layer="91"/>
 <label x="-78.74" y="104.14" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TM6" gate="G$1" pin="S"/>
+<wire x1="48.26" y1="-83.82" x2="45.72" y2="-83.82" width="0.1524" layer="91"/>
+<label x="45.72" y="-83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="-124.46" y1="-81.28" x2="-116.84" y2="-81.28" width="0.1524" layer="91"/>
+<label x="-116.84" y="-81.28" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AN7" class="3">
@@ -7979,12 +7915,22 @@ This is better than the smaller one we found because it has a built in voltage m
 <wire x1="-73.66" y1="101.6" x2="-78.74" y2="101.6" width="0.1524" layer="91"/>
 <label x="-78.74" y="101.6" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TM7" gate="G$1" pin="S"/>
+<wire x1="10.16" y1="-132.08" x2="7.62" y2="-132.08" width="0.1524" layer="91"/>
+<label x="7.62" y="-132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="AN8" class="3">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="39/A20/ALT-MISO0"/>
 <wire x1="-5.08" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="91"/>
 <label x="0" y="106.68" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TM8" gate="G$1" pin="S"/>
+<wire x1="50.8" y1="-134.62" x2="48.26" y2="-134.62" width="0.1524" layer="91"/>
+<label x="48.26" y="-134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AN9" class="3">
@@ -7993,12 +7939,32 @@ This is better than the smaller one we found because it has a built in voltage m
 <wire x1="-5.08" y1="154.94" x2="0" y2="154.94" width="0.1524" layer="91"/>
 <label x="0" y="154.94" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TM9" gate="G$1" pin="S"/>
+<wire x1="93.98" y1="-83.82" x2="91.44" y2="-83.82" width="0.1524" layer="91"/>
+<label x="91.44" y="-83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="2"/>
+<wire x1="-124.46" y1="-96.52" x2="-116.84" y2="-96.52" width="0.1524" layer="91"/>
+<label x="-116.84" y="-96.52" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="AN10" class="3">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="DAC1"/>
 <wire x1="-5.08" y1="157.48" x2="0" y2="157.48" width="0.1524" layer="91"/>
 <label x="0" y="157.48" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TM10" gate="G$1" pin="S"/>
+<wire x1="132.08" y1="-83.82" x2="129.54" y2="-83.82" width="0.1524" layer="91"/>
+<label x="129.54" y="-83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="2"/>
+<wire x1="-124.46" y1="-111.76" x2="-116.84" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-116.84" y="-111.76" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AN11" class="3">
@@ -8007,12 +7973,22 @@ This is better than the smaller one we found because it has a built in voltage m
 <wire x1="-5.08" y1="165.1" x2="0" y2="165.1" width="0.1524" layer="91"/>
 <label x="0" y="165.1" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TM11" gate="G$1" pin="S"/>
+<wire x1="93.98" y1="-132.08" x2="91.44" y2="-132.08" width="0.1524" layer="91"/>
+<label x="91.44" y="-132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="AN12" class="3">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="A11"/>
 <wire x1="-5.08" y1="167.64" x2="0" y2="167.64" width="0.1524" layer="91"/>
 <label x="0" y="167.64" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TM12" gate="G$1" pin="S"/>
+<wire x1="134.62" y1="-134.62" x2="132.08" y2="-134.62" width="0.1524" layer="91"/>
+<label x="132.08" y="-134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
