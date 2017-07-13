@@ -40,9 +40,12 @@ def process(filename):
         #print(theTextLines[i])
         thisline = re.split(" +", theTextLines[i])  #split text by spaces
         #print(thisline)
-        pinNum = thisline[1]
+
+        pinNum = re.sub('DAC0','A21',thisline[1])   #special substitutions
+        pinNum = re.sub('DAC1','A22',pinNum)        #special substitutions
         pinSig = re.sub('\n','',thisline[2])        #remove newline chars
         test = re.search(skiptText,theTextLines[i])
+
         #print(test)
         if test is None :
             pinDict[pinSig] = changeToInt(pinNum)

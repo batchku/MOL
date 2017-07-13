@@ -50,5 +50,5 @@ int U3	= 53;
 int U4	= 54;
 int A11	= A10;
 int A12	= A11;
-int A9	= DAC0;
-int A10	= DAC1;
+int A9	= A21;
+int A10	= A22;
