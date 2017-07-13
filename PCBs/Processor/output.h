@@ -1,3 +1,7 @@
+//------------------------------------------------------
+//Thiis file is automatically generated with pinlister.py
+//------------------------------------------------------
+
 int M_JOYB	= 0;
 int S_JOYB	= 1;
 int L1	= 2;

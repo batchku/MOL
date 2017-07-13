@@ -53,6 +53,10 @@ def process(filename):
 
     output = open("output.h", "w")
 
+    output.write("//------------------------------------------------------\n")
+    output.write("//Thiis file is automatically generated with pinlister.py\n")
+    output.write("//------------------------------------------------------\n")
+    output.write("\n")
     for key, value in pinDict.items():
         outputLine = "int " + key + "\t" + "= " + str(value) + ";\n"
         output.write(outputLine)
