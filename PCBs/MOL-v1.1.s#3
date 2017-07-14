@@ -6548,7 +6548,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <pinref part="GND13" gate="GND" pin="GND"/>
 </segment>
 </net>
-<net name="BTN1" class="0">
+<net name="B1" class="0">
 <segment>
 <wire x1="-76.2" y1="-55.88" x2="-93.98" y2="-55.88" width="0.1524" layer="91"/>
 <label x="-93.98" y="-55.88" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -6702,7 +6702,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <label x="-119.38" y="187.96" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="BTN2" class="0">
+<net name="B2" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="12/MISO0"/>
 <wire x1="-73.66" y1="162.56" x2="-86.36" y2="162.56" width="0.1524" layer="91"/>
@@ -6715,7 +6715,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <junction x="-38.1" y="-55.88"/>
 </segment>
 </net>
-<net name="BTN3" class="0">
+<net name="B3" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="24"/>
 <wire x1="-73.66" y1="132.08" x2="-86.36" y2="132.08" width="0.1524" layer="91"/>
@@ -6728,7 +6728,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <junction x="-76.2" y="-104.14"/>
 </segment>
 </net>
-<net name="BTN4" class="0">
+<net name="B4" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="25"/>
 <wire x1="-73.66" y1="129.54" x2="-86.36" y2="129.54" width="0.1524" layer="91"/>
@@ -6741,7 +6741,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <junction x="-35.56" y="-106.68"/>
 </segment>
 </net>
-<net name="BTN5" class="0">
+<net name="B5" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="26/ALT-PWM/ALT-TX1/ALT-SCL2"/>
 <wire x1="-73.66" y1="127" x2="-86.36" y2="127" width="0.1524" layer="91"/>
@@ -6754,7 +6754,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <junction x="17.78" y="-58.42"/>
 </segment>
 </net>
-<net name="BTN6" class="0">
+<net name="B6" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="27/ALT-RX1/ALT-SCK0"/>
 <wire x1="-73.66" y1="124.46" x2="-86.36" y2="124.46" width="0.1524" layer="91"/>
@@ -6767,7 +6767,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <junction x="55.88" y="-58.42"/>
 </segment>
 </net>
-<net name="BTN7" class="0">
+<net name="B7" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="28/ALT-MOSI0"/>
 <wire x1="-73.66" y1="121.92" x2="-86.36" y2="121.92" width="0.1524" layer="91"/>
@@ -6810,7 +6810,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <junction x="132.08" y="-7.62"/>
 </segment>
 </net>
-<net name="JOY_AN_H_S" class="3">
+<net name="S_JOYH" class="3">
 <segment>
 <pinref part="U3" gate="G$1" pin="H"/>
 <wire x1="-177.8" y1="210.82" x2="-190.5" y2="210.82" width="0.1524" layer="91"/>
@@ -6860,7 +6860,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <junction x="226.06" y="198.12"/>
 </segment>
 </net>
-<net name="M_PWM_B" class="0">
+<net name="M_PWMB" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="PWMB"/>
 <wire x1="185.42" y1="220.98" x2="175.26" y2="220.98" width="0.1524" layer="91"/>
@@ -6872,7 +6872,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <label x="-93.98" y="137.16" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="M_PWM_A" class="0">
+<net name="M_PWMA" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="PWMA"/>
 <wire x1="185.42" y1="205.74" x2="175.26" y2="205.74" width="0.1524" layer="91"/>
@@ -6913,7 +6913,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <wire x1="218.44" y1="210.82" x2="238.76" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="M_A_IN" class="0">
+<net name="M_AIN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="2A"/>
 <wire x1="119.38" y1="208.28" x2="116.84" y2="208.28" width="0.1524" layer="91"/>
@@ -6932,7 +6932,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <label x="17.78" y="109.22" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="M_B_IN" class="0">
+<net name="M_BIN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="1A"/>
 <wire x1="119.38" y1="215.9" x2="116.84" y2="215.9" width="0.1524" layer="91"/>
@@ -6965,7 +6965,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <wire x1="144.78" y1="208.28" x2="185.42" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="JOY_BTN_M" class="0">
+<net name="M_JOYB" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SEL+"/>
 <wire x1="302.26" y1="203.2" x2="289.56" y2="203.2" width="0.1524" layer="91"/>
@@ -6977,7 +6977,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <label x="-93.98" y="193.04" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="JOY_AN_H_M" class="3">
+<net name="M_JOYH" class="3">
 <segment>
 <pinref part="U2" gate="G$1" pin="H"/>
 <wire x1="302.26" y1="210.82" x2="289.56" y2="210.82" width="0.1524" layer="91"/>
@@ -6989,7 +6989,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <label x="-93.98" y="147.32" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="JOY_AN_V_M" class="3">
+<net name="M_JOYV" class="3">
 <segment>
 <pinref part="U2" gate="G$1" pin="V"/>
 <wire x1="302.26" y1="220.98" x2="289.56" y2="220.98" width="0.1524" layer="91"/>
@@ -7001,7 +7001,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <label x="-93.98" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="BTN12" class="0">
+<net name="B12" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="46/SCK2"/>
 <wire x1="-5.08" y1="124.46" x2="10.16" y2="124.46" width="0.1524" layer="91"/>
@@ -7014,7 +7014,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <junction x="142.24" y="-109.22"/>
 </segment>
 </net>
-<net name="BTN11" class="0">
+<net name="B11" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="45/CS0-5/MISO2"/>
 <wire x1="-5.08" y1="121.92" x2="10.16" y2="121.92" width="0.1524" layer="91"/>
@@ -7027,7 +7027,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <junction x="101.6" y="-106.68"/>
 </segment>
 </net>
-<net name="BTN10" class="0">
+<net name="B10" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="44/MOSI2"/>
 <wire x1="-5.08" y1="119.38" x2="10.16" y2="119.38" width="0.1524" layer="91"/>
@@ -7040,7 +7040,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <junction x="139.7" y="-58.42"/>
 </segment>
 </net>
-<net name="BTN9" class="0">
+<net name="B9" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="43/CS2-0"/>
 <wire x1="-5.08" y1="116.84" x2="10.16" y2="116.84" width="0.1524" layer="91"/>
@@ -7053,7 +7053,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <junction x="101.6" y="-58.42"/>
 </segment>
 </net>
-<net name="BTN8" class="0">
+<net name="B8" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="42"/>
 <wire x1="-5.08" y1="114.3" x2="10.16" y2="114.3" width="0.1524" layer="91"/>
@@ -7336,6 +7336,11 @@ This is better than the smaller one we found because it has a built in voltage m
 <wire x1="-73.66" y1="116.84" x2="-119.38" y2="116.84" width="0.1524" layer="91"/>
 <label x="-119.38" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="37/A18/PWM/SCL1"/>
+<wire x1="-5.08" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
+<label x="27.94" y="101.6" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="L11" class="0">
 <segment>
@@ -7344,9 +7349,19 @@ This is better than the smaller one we found because it has a built in voltage m
 <label x="-241.3" y="-25.4" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
+<pinref part="TEENSY" gate="G$1" pin="50/A24/PWM"/>
+<wire x1="-5.08" y1="134.62" x2="27.94" y2="134.62" width="0.1524" layer="91"/>
+<label x="27.94" y="134.62" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
 <pinref part="TEENSY" gate="G$1" pin="31/A12/PWM/RX4/CS1-0"/>
 <wire x1="-73.66" y1="114.3" x2="-119.38" y2="114.3" width="0.1524" layer="91"/>
 <label x="-119.38" y="114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="38/A19/PWM/SDA1"/>
+<wire x1="-5.08" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
+<label x="27.94" y="104.14" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="L12" class="0">
@@ -7359,6 +7374,11 @@ This is better than the smaller one we found because it has a built in voltage m
 <pinref part="TEENSY" gate="G$1" pin="32/A13/PWM/TX4/SCK1"/>
 <wire x1="-73.66" y1="111.76" x2="-119.38" y2="111.76" width="0.1524" layer="91"/>
 <label x="-119.38" y="111.76" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="49/A23/PWM"/>
+<wire x1="-5.08" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
+<label x="27.94" y="132.08" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="L13" class="0">
@@ -7465,7 +7485,7 @@ This is better than the smaller one we found because it has a built in voltage m
 <label x="-193.04" y="-38.1" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="JOY_AN_V_S" class="3">
+<net name="S_JOYV" class="3">
 <segment>
 <pinref part="U3" gate="G$1" pin="V"/>
 <wire x1="-177.8" y1="220.98" x2="-190.5" y2="220.98" width="0.1524" layer="91"/>
@@ -7475,6 +7495,18 @@ This is better than the smaller one we found because it has a built in voltage m
 <pinref part="TEENSY" gate="G$1" pin="19/A5/PWM/T/SCL0"/>
 <wire x1="-73.66" y1="144.78" x2="-106.68" y2="144.78" width="0.1524" layer="91"/>
 <label x="-106.68" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="S_JOYB" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="SEL+"/>
+<wire x1="-177.8" y1="203.2" x2="-190.5" y2="203.2" width="0.1524" layer="91"/>
+<label x="-190.5" y="203.2" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="1/TX1/MISO1/T"/>
+<wire x1="-73.66" y1="190.5" x2="-106.68" y2="190.5" width="0.1524" layer="91"/>
+<label x="-106.68" y="190.5" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -7957,18 +7989,6 @@ This is better than the smaller one we found because it has a built in voltage m
 <pinref part="TM12" gate="G$1" pin="S"/>
 <wire x1="134.62" y1="-134.62" x2="132.08" y2="-134.62" width="0.1524" layer="91"/>
 <label x="132.08" y="-134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="JOY_BTN_S" class="0">
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="1/TX1/MISO1/T"/>
-<wire x1="-73.66" y1="190.5" x2="-106.68" y2="190.5" width="0.1524" layer="91"/>
-<label x="-106.68" y="190.5" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="SEL+"/>
-<wire x1="-177.8" y1="203.2" x2="-190.5" y2="203.2" width="0.1524" layer="91"/>
-<label x="-190.5" y="203.2" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

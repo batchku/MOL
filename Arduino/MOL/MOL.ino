@@ -1,8 +1,15 @@
-#include "MOL.h"
-#include <Bounce2.h>
+//Change these values for debugging
+#define NUM_MODS 3      //3
+#define NUM_POTS 1      //12
+#define NUM_BTNS 1      //12
+#define NUM_LEDS 16     //16 
+#define NUM_USR 1       //4
+#define NUM_JOYPOTS 2   //4
+#define NUM_JOY_BTNS 1  //2
 
-Bounce * joyButtDebouncer = new Bounce[NUM_JOY_BTNS]; // Create Bounce objects for each button.
-Bounce * buttDebouncer = new Bounce[NUM_BTNS]; // Create Bounce objects for each button.
+#include "MOL.h"
+#include "CCs.h"
+#include "Filters.h"
 
 elapsedMillis msec = 0;
 
@@ -17,13 +24,13 @@ void setup() {
   } // set all previous joystick potentiometer values to -1 at startup
 
   for (int b = 0; b < NUM_JOYPOTS; b++) {
-    int read1 = analogRead(JOYPOTS[b]) / 8;
+    int read1 = analogRead(JPOTS[b]) / 8;
     delay(5);
-    int read2 = analogRead(JOYPOTS[b]) / 8;
+    int read2 = analogRead(JPOTS[b]) / 8;
     delay(5);
-    int read3 = analogRead(JOYPOTS[b]) / 8;
+    int read3 = analogRead(JPOTS[b]) / 8;
     delay(5);
-    int read4 = analogRead(JOYPOTS[b]) / 8;
+    int read4 = analogRead(JPOTS[b]) / 8;
     delay(5);
     joyPotCenters[b] = (read1 + read2 + read3 + read4) / 4;
   } // read all current (center) values from the joy pots
@@ -92,7 +99,7 @@ void potInput() {
 
 
     for (int b = 0; b < NUM_JOYPOTS; b++) {
-      int f = analogRead(JOYPOTS[b]) / 8;
+      int f = analogRead(JPOTS[b]) / 8;
 
       if (((f + joyPotPrevs[0][b] + joyPotPrevs[1][b] + joyPotPrevs[2][b]) / 4) != joyPotSends[b]) {
         if (f <= joyPotCenters[b]) {
