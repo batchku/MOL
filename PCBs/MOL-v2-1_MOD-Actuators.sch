@@ -3265,7 +3265,7 @@ Holes are 0.05".
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="2">
 <segment>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 <pinref part="U$7" gate="G$1" pin="GND"/>
@@ -3493,28 +3493,28 @@ Holes are 0.05".
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$1" class="2">
 <segment>
 <pinref part="U$7" gate="G$1" pin="AO1"/>
 <pinref part="MOTORS1" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="55.88" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="N$2" class="2">
 <segment>
 <pinref part="U$7" gate="G$1" pin="AO2"/>
 <pinref part="MOTORS1" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="58.42" x2="190.5" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="N$3" class="2">
 <segment>
 <pinref part="MOTORS1" gate="G$1" pin="3"/>
 <pinref part="U$7" gate="G$1" pin="BO2"/>
 <wire x1="190.5" y1="58.42" x2="170.18" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="N$4" class="2">
 <segment>
 <pinref part="U$7" gate="G$1" pin="BO1"/>
 <pinref part="MOTORS1" gate="G$1" pin="4"/>

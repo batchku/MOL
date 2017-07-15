@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -158,6 +158,20 @@
 </layers>
 <board>
 <plain>
+<wire x1="0" y1="3.81" x2="3.81" y2="0" width="0.1524" layer="20" curve="90"/>
+<wire x1="3.81" y1="0" x2="29.21" y2="0" width="0.1524" layer="20"/>
+<wire x1="29.21" y1="0" x2="33.02" y2="3.81" width="0.1524" layer="20" curve="90"/>
+<wire x1="33.02" y1="3.81" x2="33.02" y2="39.37" width="0.1524" layer="20"/>
+<wire x1="33.02" y1="39.37" x2="29.21" y2="43.18" width="0.1524" layer="20" curve="90"/>
+<wire x1="29.21" y1="43.18" x2="3.81" y2="43.18" width="0.1524" layer="20"/>
+<wire x1="3.81" y1="43.18" x2="0" y2="39.37" width="0.1524" layer="20" curve="90"/>
+<wire x1="0" y1="39.37" x2="0" y2="3.81" width="0.1524" layer="20"/>
+<hole x="3.81" y="39.37" drill="2.54"/>
+<hole x="29.21" y="39.37" drill="2.54"/>
+<hole x="29.21" y="3.81" drill="2.54"/>
+<hole x="3.81" y="3.81" drill="2.54"/>
+<text x="2.413" y="7.747" size="1.27" layer="25" font="vector" ratio="30" rot="R90">MOL-v2-1 Actuators Module</text>
+<text x="32.258" y="9.017" size="1.016" layer="25" font="vector" ratio="15" rot="R90">2017 Ali Momeni @ Pittsburgh</text>
 </plain>
 <libraries>
 <library name="CMU-ArtFab">
@@ -583,26 +597,36 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$7" library="CMU-ArtFab" package="POLOLU_TB6612FNG" value="POLOLU_TB6612FNG" x="19.05" y="17.78" rot="MR90"/>
-<element name="MOTORS1" library="CMU-ArtFab" package="SPRINGTERMINAL-2.54MM-4" value="" x="13.97" y="2.54"/>
-<element name="IC3" library="74LV" package="SOT23-6" value="SN74LVC2G04DBV" x="17.78" y="20.32" rot="MR90"/>
-<element name="J4" library="SparkFun-Connectors" package="1X03_LOCK@1" value="SERVO 1" x="25.4" y="2.54"/>
-<element name="J5" library="SparkFun-Connectors" package="1X03_LOCK@1" value="SERVO 2" x="25.4" y="-2.54"/>
-<element name="J1" library="SparkFun-Connectors" package="2X5-SHROUDED_LOCK" value="ACTUATORS" x="21.59" y="33.02" rot="MR270">
-<attribute name="PROD_ID" value="CONN-08671" x="-7.62" y="55.88" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SF_ID" value="PRT-08506" x="-7.62" y="55.88" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="U$7" library="CMU-ArtFab" package="POLOLU_TB6612FNG" value="POLOLU_TB6612FNG" x="13.97" y="24.13" rot="MR90"/>
+<element name="MOTORS1" library="CMU-ArtFab" package="SPRINGTERMINAL-2.54MM-4" value="" x="12.192" y="7.62"/>
+<element name="IC3" library="74LV" package="SOT23-6" value="SN74LVC2G04DBV" x="12.7" y="25.4" rot="MR90"/>
+<element name="J4" library="SparkFun-Connectors" package="1X03_LOCK@1" value="SERVO 1" x="22.86" y="11.43" smashed="yes">
+<attribute name="NAME" x="29.464" y="11.303" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="21.59" y="12.954" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="TO-STEPUP" library="CMU-ArtFab" package="1X02_LOCK" value="" x="31.75" y="22.86" smashed="yes" rot="MR90">
-<attribute name="NAME" x="33.5788" y="18.9738" size="1.27" layer="26" ratio="10" rot="MR90"/>
-<attribute name="VALUE" x="28.575" y="21.59" size="1.27" layer="28" rot="MR90"/>
+<element name="J5" library="SparkFun-Connectors" package="1X03_LOCK@1" value="SERVO 2" x="22.86" y="8.89" smashed="yes">
+<attribute name="NAME" x="29.464" y="8.636" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="21.59" y="6.858" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="FROM-STEPUP" library="CMU-ArtFab" package="1X02_LOCK" value="" x="31.75" y="10.16" smashed="yes" rot="MR90">
-<attribute name="NAME" x="33.5788" y="5.0038" size="1.27" layer="26" ratio="10" rot="MR90"/>
-<attribute name="VALUE" x="28.575" y="8.89" size="1.27" layer="28" rot="MR90"/>
+<element name="J1" library="SparkFun-Connectors" package="2X5-SHROUDED_LOCK" value="ACTUATORS" x="16.51" y="38.1" rot="MR270">
+<attribute name="PROD_ID" value="CONN-08671" x="-12.7" y="60.96" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SF_ID" value="PRT-08506" x="-12.7" y="60.96" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
+<element name="TO-STEPUP" library="CMU-ArtFab" package="1X02_LOCK" value="" x="27.94" y="27.94" smashed="yes" rot="MR90">
+<attribute name="5V" value="" x="25.4" y="26.67" size="1.016" layer="28" rot="MR90" display="name"/>
+<attribute name="GND" value="GND" x="25.4" y="29.21" size="1.016" layer="28" rot="MR90" display="name"/>
+<attribute name="NAME" x="31.0388" y="24.0538" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="24.765" y="26.67" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="FROM-STEPUP" library="CMU-ArtFab" package="1X02_LOCK" value="" x="27.94" y="20.32" smashed="yes" rot="MR270">
+<attribute name="GND" value="" x="26.289" y="22.225" size="1.016" layer="28" rot="MR270" display="name"/>
+<attribute name="NAME" x="32.4612" y="21.6662" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="31.115" y="21.59" size="1.27" layer="28" rot="MR270"/>
+<attribute name="VMOT" value="" x="26.289" y="18.415" size="1.016" layer="28" rot="MR270" display="name"/>
 </element>
 </elements>
 <signals>
-<signal name="GND">
+<signal name="GND" class="2">
 <contactref element="IC3" pad="2"/>
 <contactref element="U$7" pad="GND"/>
 <contactref element="J4" pad="1"/>
@@ -610,56 +634,56 @@ design rules under a new name.</description>
 <contactref element="J1" pad="10"/>
 <contactref element="TO-STEPUP" pad="2"/>
 <contactref element="FROM-STEPUP" pad="1"/>
-<wire x1="31.75" y1="25.5778" x2="31.75" y2="9.9822" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="-2.413" x2="31.75" y2="25.5778" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="2.667" x2="25.4" y2="-2.413" width="0" layer="19" extent="1-1"/>
-<wire x1="27.94" y1="10.16" x2="25.4" y2="2.667" width="0" layer="19" extent="1-1"/>
-<wire x1="16.4799" y1="20.32" x2="27.94" y2="10.16" width="0" layer="19" extent="16-16"/>
-<wire x1="26.67" y1="31.623" x2="16.4799" y2="20.32" width="0" layer="19" extent="16-16"/>
+<wire x1="21.59" y1="36.703" x2="27.94" y2="30.6578" width="0" layer="19" extent="1-1"/>
+<wire x1="27.94" y1="20.4978" x2="27.94" y2="30.6578" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="16.51" x2="27.94" y2="20.4978" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="11.557" x2="22.86" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="9.017" x2="22.86" y2="11.557" width="0" layer="19" extent="1-1"/>
+<wire x1="11.3999" y1="25.4" x2="22.86" y2="16.51" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VMOT" class="2">
 <contactref element="U$7" pad="VMOT"/>
 <contactref element="FROM-STEPUP" pad="2"/>
-<wire x1="12.7" y1="10.16" x2="31.75" y2="12.8778" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="16.51" x2="27.94" y2="17.6022" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND_MOT" class="2">
 <contactref element="U$7" pad="GND1"/>
 <contactref element="U$7" pad="GND2"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="16.51" x2="5.08" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M_PWMB">
 <contactref element="U$7" pad="PWMB"/>
 <contactref element="J1" pad="3"/>
-<wire x1="12.7" y1="25.4" x2="19.05" y2="34.417" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="31.75" x2="13.97" y2="39.497" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M_PWMA">
 <contactref element="U$7" pad="PWMA"/>
 <contactref element="J1" pad="1"/>
-<wire x1="27.94" y1="25.4" x2="16.51" y2="34.417" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="39.497" x2="22.86" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M_AIN">
 <contactref element="IC3" pad="3"/>
 <contactref element="U$7" pad="AIN1"/>
 <contactref element="J1" pad="2"/>
-<wire x1="16.4799" y1="21.27" x2="16.51" y2="31.623" width="0" layer="19" extent="1-1"/>
-<wire x1="22.86" y1="25.4" x2="16.4799" y2="21.27" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="36.703" x2="17.78" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="11.3999" y1="26.35" x2="17.78" y2="31.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="M_BIN">
 <contactref element="IC3" pad="1"/>
 <contactref element="U$7" pad="BIN2"/>
 <contactref element="J1" pad="4"/>
-<wire x1="16.4799" y1="19.37" x2="19.05" y2="31.623" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="25.4" x2="16.4799" y2="19.37" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="31.75" x2="13.97" y2="36.703" width="0" layer="19" extent="1-1"/>
+<wire x1="11.3999" y1="24.45" x2="10.16" y2="31.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC3" pad="6"/>
 <contactref element="U$7" pad="BIN1"/>
-<wire x1="17.78" y1="25.4" x2="19.0801" y2="19.37" width="0" layer="19" extent="1-1"/>
+<wire x1="14.0001" y1="24.45" x2="12.7" y2="31.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="IC3" pad="4"/>
 <contactref element="U$7" pad="AIN2"/>
-<wire x1="25.4" y1="25.4" x2="19.0801" y2="21.27" width="0" layer="19" extent="1-1"/>
+<wire x1="14.0001" y1="26.35" x2="20.32" y2="31.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="+5V" class="2">
 <contactref element="J4" pad="2"/>
@@ -667,49 +691,49 @@ design rules under a new name.</description>
 <contactref element="J1" pad="8"/>
 <contactref element="J1" pad="7"/>
 <contactref element="TO-STEPUP" pad="1"/>
-<wire x1="24.13" y1="31.623" x2="24.13" y2="34.417" width="0" layer="19" extent="1-1"/>
-<wire x1="27.94" y1="2.413" x2="24.13" y2="31.623" width="0" layer="19" extent="1-1"/>
-<wire x1="27.94" y1="-2.667" x2="27.94" y2="2.413" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="22.6822" x2="27.94" y2="-2.667" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="36.703" x2="19.05" y2="39.497" width="0" layer="19" extent="1-1"/>
+<wire x1="27.94" y1="27.7622" x2="19.05" y2="36.703" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="11.303" x2="27.94" y2="27.7622" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="8.763" x2="25.4" y2="11.303" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S1">
 <contactref element="J4" pad="3"/>
 <contactref element="J1" pad="5"/>
-<wire x1="30.48" y1="2.667" x2="21.59" y2="34.417" width="0" layer="19" extent="1-1"/>
+<wire x1="27.94" y1="11.557" x2="16.51" y2="39.497" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S2">
 <contactref element="J5" pad="3"/>
 <contactref element="J1" pad="6"/>
-<wire x1="30.48" y1="-2.413" x2="21.59" y2="31.623" width="0" layer="19" extent="1-1"/>
+<wire x1="27.94" y1="9.017" x2="16.51" y2="36.703" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="IC3" pad="5"/>
 <contactref element="U$7" pad="STBY"/>
 <contactref element="U$7" pad="VCC"/>
 <contactref element="J1" pad="9"/>
-<wire x1="19.0801" y1="20.32" x2="26.67" y2="34.417" width="0" layer="19" extent="1-1"/>
-<wire x1="20.32" y1="25.4" x2="19.0801" y2="20.32" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="10.16" x2="20.32" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="31.75" x2="21.59" y2="39.497" width="0" layer="19" extent="1-1"/>
+<wire x1="14.0001" y1="25.4" x2="15.24" y2="31.75" width="0" layer="19" extent="16-16"/>
+<wire x1="20.32" y1="16.51" x2="14.0001" y2="25.4" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1">
+<signal name="N$1" class="2">
 <contactref element="U$7" pad="AO1"/>
 <contactref element="MOTORS1" pad="P$1"/>
-<wire x1="21.59" y1="5.08" x2="22.86" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="19.812" y1="10.16" x2="17.78" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$2">
+<signal name="N$2" class="2">
 <contactref element="U$7" pad="AO2"/>
 <contactref element="MOTORS1" pad="P$2"/>
-<wire x1="19.05" y1="5.08" x2="20.32" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="17.272" y1="10.16" x2="15.24" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$3">
+<signal name="N$3" class="2">
 <contactref element="MOTORS1" pad="P$3"/>
 <contactref element="U$7" pad="BO2"/>
-<wire x1="16.51" y1="5.08" x2="17.78" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="14.732" y1="10.16" x2="12.7" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$4">
+<signal name="N$4" class="2">
 <contactref element="U$7" pad="BO1"/>
 <contactref element="MOTORS1" pad="P$4"/>
-<wire x1="13.97" y1="5.08" x2="15.24" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="12.192" y1="10.16" x2="10.16" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

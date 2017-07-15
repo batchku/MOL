@@ -158,10 +158,10 @@
 </layers>
 <board>
 <plain>
-<hole x="5.08" y="45.72" drill="0.35"/>
-<hole x="5.08" y="5.08" drill="0.35"/>
-<hole x="134.62" y="45.72" drill="0.35"/>
-<hole x="134.62" y="5.08" drill="0.35"/>
+<hole x="5.08" y="45.72" drill="2.54"/>
+<hole x="5.08" y="5.08" drill="2.54"/>
+<hole x="134.62" y="45.72" drill="2.54"/>
+<hole x="134.62" y="5.08" drill="2.54"/>
 <wire x1="3.81" y1="50.8" x2="0" y2="46.99" width="0.1524" layer="20" curve="90"/>
 <wire x1="0" y1="46.99" x2="0" y2="3.81" width="0.1524" layer="20"/>
 <wire x1="0" y1="3.81" x2="3.81" y2="0" width="0.1524" layer="20" curve="90"/>
@@ -170,7 +170,7 @@
 <wire x1="139.7" y1="3.81" x2="139.7" y2="45.72" width="0.1524" layer="20"/>
 <wire x1="139.7" y1="45.72" x2="135.89" y2="50.8" width="0.1524" layer="20" curve="73.739806"/>
 <wire x1="135.89" y1="50.8" x2="3.81" y2="50.8" width="0.1524" layer="20"/>
-<text x="7.366" y="45.212" size="1.6764" layer="25" font="vector" ratio="30">MOM+MOL v2-2</text>
+<text x="7.366" y="45.212" size="1.6764" layer="25" font="vector" ratio="30">MOM+MOL v2-1</text>
 <text x="1.524" y="41.783" size="1.016" layer="25" font="vector" ratio="15">2017 Ali Momeni @ Pittsburgh</text>
 </plain>
 <libraries>
