@@ -47,7 +47,9 @@ const int USRCCs[]        = {72,
 const int SERVOCCs[]      = {12,
                              13};
                              
-const int MOTORCCs[]      = {14,
-                             15,
-                             16,
+const int MOTORPWMCCs[]   = {14,
+                             15};
+                             
+const int MOTORINCCs[]    = {16,
                              17};
+                             

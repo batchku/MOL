@@ -75,8 +75,8 @@ const int POTS[]    = {AN1,
                        AN12};
 
 const int JPOTS[]   = {JOY_AN_H_M,
-                       JOY_AN_V_M,
                        JOY_AN_H_S,
+                       JOY_AN_V_M,
                        JOY_AN_V_S};
 
 const int BTNS[]    = {BTN1,
@@ -118,5 +118,11 @@ const int USR[]     = {U1,
                        U4};
                        
 const int SERVOS[]  = {S1,
-                       S2};                       
+                       S2};
+
+const int MOTOR_S[] = {M_PWM_A,
+                       M_PWM_B};
+
+const int MOTOR_I[] = {M_A_IN,
+                       M_B_IN};
 

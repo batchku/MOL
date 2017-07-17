@@ -5076,11 +5076,6 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="121.92" y1="60.96" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="254" x2="109.22" y2="254" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="55"/>
-<label x="109.22" y="254" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$3" gate="G$1" pin="26/ALT-PWM/ALT-TX1/ALT-SCL2"/>
 <wire x1="22.86" y1="203.2" x2="15.24" y2="203.2" width="0.1524" layer="91"/>
 <label x="15.24" y="203.2" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -6023,6 +6018,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="121.92" y1="86.36" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
 <label x="116.84" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="7"/>
+</segment>
+<segment>
+<wire x1="96.52" y1="254" x2="109.22" y2="254" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="55"/>
+<label x="109.22" y="254" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LED6" class="0">

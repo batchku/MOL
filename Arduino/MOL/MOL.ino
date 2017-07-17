@@ -180,9 +180,14 @@ void OnControlChange(byte channel, byte number, byte value) {
   }
 
   for (int b = 0; b < NUM_MOTORS; b++) {
-    if (number == SERVOCCs[b]) {
-      int val = map(value, 0, 127, 0, 180);
-      servo[b].write(val);
+    if (number == MOTORPWMCCs[b]) {
+      analogWrite(MOTOR_S[b], value * 2);
+    }
+  }
+
+  for (int b = 0; b < NUM_MOTORS; b++) {
+    if (number == MOTORINCCs[b]) {
+      analogWrite(MOTOR_I[b], value * 2);
     }
   }
 }
