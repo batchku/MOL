@@ -4382,8 +4382,8 @@ ULN and UDN Series&lt;p&gt;
 </class>
 </classes>
 <parts>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_03" device="LOCK" value="Servo1"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="CONN_03" device="LOCK" value="Servo2"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="CONN_03" device="LOCK" value="SERVO1"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="CONN_03" device="LOCK" value="SERVO2"/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 <part name="IC1" library="uln-udn" library_urn="urn:adsk.eagle:library:407" deviceset="ULN2803A" device="" value="ULN2803"/>
 <part name="+5V1" library="supply1" deviceset="V+" device="">
@@ -4399,7 +4399,7 @@ ULN and UDN Series&lt;p&gt;
 <part name="RN1" library="CMU-ArtFab" deviceset="RESISTOR-NET-8P" device="DIL16" value="330"/>
 <part name="RN2" library="CMU-ArtFab" deviceset="RESISTOR-NET-8P" device="DIL16" value="330"/>
 <part name="JOY1" library="SparkFun-Connectors" deviceset="CONN_05" device="LOCK"/>
-<part name="ACTUATORS" library="SparkFun-Connectors" deviceset="CONN_05X2" device="SHD_LOCK"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="CONN_05X2" device="SHD_LOCK" value="ACTUATORS"/>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
@@ -4530,7 +4530,7 @@ ULN and UDN Series&lt;p&gt;
 <instance part="RN2" gate="G" x="-195.58" y="195.58" smashed="yes"/>
 <instance part="RN2" gate="H" x="-195.58" y="193.04" smashed="yes"/>
 <instance part="JOY1" gate="G$1" x="-241.3" y="279.4"/>
-<instance part="ACTUATORS" gate="G$1" x="-35.56" y="327.66"/>
+<instance part="J4" gate="G$1" x="-35.56" y="327.66"/>
 <instance part="SUPPLY18" gate="GND" x="-20.32" y="320.04"/>
 <instance part="+3V9" gate="G$1" x="-45.72" y="345.44"/>
 <instance part="+3V10" gate="G$1" x="-152.4" y="274.32"/>
@@ -4626,7 +4626,7 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="GND5" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="ACTUATORS" gate="G$1" pin="10"/>
+<pinref part="J4" gate="G$1" pin="10"/>
 <wire x1="-27.94" y1="322.58" x2="-20.32" y2="322.58" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
 </segment>
@@ -4865,7 +4865,7 @@ ULN and UDN Series&lt;p&gt;
 </net>
 <net name="M_PWMB" class="0">
 <segment>
-<pinref part="ACTUATORS" gate="G$1" pin="3"/>
+<pinref part="J4" gate="G$1" pin="3"/>
 <wire x1="-43.18" y1="330.2" x2="-50.8" y2="330.2" width="0.1524" layer="91"/>
 <label x="-50.8" y="330.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -4877,7 +4877,7 @@ ULN and UDN Series&lt;p&gt;
 </net>
 <net name="M_PWMA" class="0">
 <segment>
-<pinref part="ACTUATORS" gate="G$1" pin="1"/>
+<pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="-43.18" y1="332.74" x2="-50.8" y2="332.74" width="0.1524" layer="91"/>
 <label x="-50.8" y="332.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -4889,7 +4889,7 @@ ULN and UDN Series&lt;p&gt;
 </net>
 <net name="M_AIN" class="0">
 <segment>
-<pinref part="ACTUATORS" gate="G$1" pin="2"/>
+<pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="332.74" x2="-17.78" y2="332.74" width="0.1524" layer="91"/>
 <label x="-17.78" y="332.74" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -4901,7 +4901,7 @@ ULN and UDN Series&lt;p&gt;
 </net>
 <net name="M_BIN" class="0">
 <segment>
-<pinref part="ACTUATORS" gate="G$1" pin="4"/>
+<pinref part="J4" gate="G$1" pin="4"/>
 <wire x1="-27.94" y1="330.2" x2="-17.78" y2="330.2" width="0.1524" layer="91"/>
 <label x="-17.78" y="330.2" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -5019,12 +5019,12 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="+5V2" gate="1" pin="V+"/>
 </segment>
 <segment>
-<pinref part="ACTUATORS" gate="G$1" pin="7"/>
+<pinref part="J4" gate="G$1" pin="7"/>
 <wire x1="-43.18" y1="325.12" x2="-50.8" y2="325.12" width="0.1524" layer="91"/>
 <label x="-50.8" y="325.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ACTUATORS" gate="G$1" pin="8"/>
+<pinref part="J4" gate="G$1" pin="8"/>
 <wire x1="-27.94" y1="325.12" x2="-17.78" y2="325.12" width="0.1524" layer="91"/>
 <label x="-17.78" y="325.12" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -5042,7 +5042,7 @@ ULN and UDN Series&lt;p&gt;
 <label x="-35.56" y="365.76" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ACTUATORS" gate="G$1" pin="5"/>
+<pinref part="J4" gate="G$1" pin="5"/>
 <wire x1="-43.18" y1="327.66" x2="-50.8" y2="327.66" width="0.1524" layer="91"/>
 <label x="-50.8" y="327.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -5059,7 +5059,7 @@ ULN and UDN Series&lt;p&gt;
 <label x="-35.56" y="347.98" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ACTUATORS" gate="G$1" pin="6"/>
+<pinref part="J4" gate="G$1" pin="6"/>
 <wire x1="-27.94" y1="327.66" x2="-17.78" y2="327.66" width="0.1524" layer="91"/>
 <label x="-17.78" y="327.66" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -5094,7 +5094,7 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="-210.82" y1="276.86" x2="-210.82" y2="289.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ACTUATORS" gate="G$1" pin="9"/>
+<pinref part="J4" gate="G$1" pin="9"/>
 <wire x1="-43.18" y1="322.58" x2="-45.72" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="342.9" x2="-45.72" y2="322.58" width="0.1524" layer="91"/>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
@@ -5342,6 +5342,11 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="-48.26" y1="223.52" x2="-48.26" y2="226.06" width="0.1524" layer="91"/>
 <label x="-48.26" y="226.06" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="50/A24"/>
+<wire x1="-165.1" y1="350.52" x2="-152.4" y2="350.52" width="0.1524" layer="91"/>
+<label x="-152.4" y="350.52" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="AN12" class="3">
 <segment>
@@ -5353,6 +5358,11 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="KNOB4" gate="G$1" pin="S"/>
 <wire x1="-48.26" y1="200.66" x2="-48.26" y2="203.2" width="0.1524" layer="91"/>
 <label x="-48.26" y="203.2" size="1.016" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="49/A23"/>
+<wire x1="-165.1" y1="347.98" x2="-152.4" y2="347.98" width="0.1524" layer="91"/>
+<label x="-152.4" y="347.98" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -6025,20 +6035,6 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="U$3" gate="G$1" pin="43/CS2-0"/>
 <wire x1="-213.36" y1="350.52" x2="-223.52" y2="350.52" width="0.1524" layer="91"/>
 <label x="-223.52" y="350.52" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A11" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="50/A24"/>
-<wire x1="-165.1" y1="350.52" x2="-152.4" y2="350.52" width="0.1524" layer="91"/>
-<label x="-152.4" y="350.52" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="A12" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="49/A23"/>
-<wire x1="-165.1" y1="347.98" x2="-152.4" y2="347.98" width="0.1524" layer="91"/>
-<label x="-152.4" y="347.98" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
