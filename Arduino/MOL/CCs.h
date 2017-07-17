@@ -4,18 +4,18 @@ const int channel = 1;
 //Pot MIDI CC #s
 //Three layers, 1+2 = loop layers, 3 = live layer 
 //Broken const into: OPACITY, THRESH, SOFT, SCALE
-const int POTCCs[]        = {0,16,102,18,
-                             1,17,103,19,
-                             7,23,22,20};
+const int POTCCs[]        = {0,1,2,3,
+                             4,5,6,7,
+                             8,9,10,11};
 
 //Joystick MIDI CC #s                   
 const int JOYCCs[]        = {30,31,
                              32,33};
  
 //Button MIDI CC #s    
-const int BTNCCs[]        = {64,32,48,0,
-                             65,33,49,0,
-                             66,34,50,0};
+const int BTNCCs[]        = {64,65,66,67,
+                             68,69,70,71,
+                             72,73,74,75};
  
 //Joystick Button MIDI CC #s                      
 const int JBTNCCs[]       = {110,
@@ -24,11 +24,11 @@ const int JBTNCCs[]       = {110,
 //LED MIDI CC #s                 
 const int LEDCCs[]        = {60,
                              61,
-                             65,
+                             62,
                              63,
                              64,
                              65,
-                             62,
+                             66,
                              67,
                              68,
                              69,
@@ -43,3 +43,5 @@ const int USRCCs[]        = {72,
                              73,
                              74,
                              75};
+const int SERVOCCs[]      = {12,
+                             13};

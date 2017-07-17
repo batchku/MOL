@@ -1,15 +1,19 @@
 //Change these values for debugging
 #define NUM_MODS 3      //3
-#define NUM_POTS 1      //12
-#define NUM_BTNS 1      //12
+#define NUM_POTS 12     //12
+#define NUM_BTNS 12     //12
 #define NUM_LEDS 16     //16 
-#define NUM_USR 1       //4
-#define NUM_JOYPOTS 2   //4
-#define NUM_JOY_BTNS 1  //2
+#define NUM_USR 4       //4
+#define NUM_JOYPOTS 4   //4
+#define NUM_JOY_BTNS 2  //2
+#define NUM_SERVOS 2    //2
 
 #include "MOL.h"
 #include "CCs.h"
 #include "Filters.h"
+#include <Servo.h>
+
+Servo servo[NUM_SERVOS];
 
 elapsedMillis msec = 0;
 
@@ -48,8 +52,13 @@ void setup() {
     buttDebouncer[b].interval(5);
   } //set up button pins and attach them to Bounce objects and set time interals
 
+ for (int b = 0; b < NUM_SERVOS; b++) {
+    servo[b].attach(SERVOS[b]);
+  }
+
   usbMIDI.setHandleNoteOff(OnNoteOff); //OnNoteOff function below
   usbMIDI.setHandleNoteOn(OnNoteOn);  //OnNoteOn function below
+  usbMIDI.setHandleControlChange(OnControlChange);
 
 }
 
@@ -158,6 +167,16 @@ void OnNoteOff(byte channel, byte note, byte velocity)
     }
   }
 
+}
+
+void OnControlChange(byte channel, byte number, byte value) {
+
+  for (int b = 0; b < NUM_SERVOS; b++) {
+    if (number == SERVOCCs[b]) {
+      int val = map(value, 0, 127, 0, 180);
+      servo[b].write(val);
+    }
+  }
 }
 
 void loop() {
