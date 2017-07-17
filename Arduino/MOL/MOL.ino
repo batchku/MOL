@@ -7,6 +7,7 @@
 #define NUM_JOYPOTS 4   //4
 #define NUM_JOY_BTNS 2  //2
 #define NUM_SERVOS 2    //2
+#define NUM_MOTORS 2    //2
 
 #include "MOL.h"
 #include "CCs.h"
@@ -52,7 +53,7 @@ void setup() {
     buttDebouncer[b].interval(5);
   } //set up button pins and attach them to Bounce objects and set time interals
 
- for (int b = 0; b < NUM_SERVOS; b++) {
+  for (int b = 0; b < NUM_SERVOS; b++) {
     servo[b].attach(SERVOS[b]);
   }
 
@@ -172,6 +173,13 @@ void OnNoteOff(byte channel, byte note, byte velocity)
 void OnControlChange(byte channel, byte number, byte value) {
 
   for (int b = 0; b < NUM_SERVOS; b++) {
+    if (number == SERVOCCs[b]) {
+      int val = map(value, 0, 127, 0, 180);
+      servo[b].write(val);
+    }
+  }
+
+  for (int b = 0; b < NUM_MOTORS; b++) {
     if (number == SERVOCCs[b]) {
       int val = map(value, 0, 127, 0, 180);
       servo[b].write(val);

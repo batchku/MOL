@@ -43,5 +43,11 @@ const int USRCCs[]        = {72,
                              73,
                              74,
                              75};
+                             
 const int SERVOCCs[]      = {12,
                              13};
+                             
+const int MOTORCCs[]      = {14,
+                             15,
+                             16,
+                             17};
