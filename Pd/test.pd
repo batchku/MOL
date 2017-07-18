@@ -1,0 +1,8 @@
+#N canvas 0 23 1014 712 10;
+#X obj 17 30 arrayReader;
+#X obj 335 62 mom.strip 3;
+#X obj 335 322 mom.strip 4;
+#X obj 646 63 mom.strip 5;
+#X obj 646 323 mom.strip 6;
+#X obj 25 320 mom.strip 2;
+#X obj 25 60 mom.strip 1;
