@@ -57,6 +57,14 @@ void setup() {
     servo[b].attach(SERVOS[b]);
   }
 
+  for (int b = 0; b < NUM_MOTORS; b++) {
+    pinMode(MOTOR_I[b], OUTPUT);
+  }
+
+  for (int b = 0; b < NUM_LEDS; b++) {
+    pinMode(LEDS[b], OUTPUT);
+  }
+
   usbMIDI.setHandleNoteOff(OnNoteOff); //OnNoteOff function below
   usbMIDI.setHandleNoteOn(OnNoteOn);  //OnNoteOn function below
   usbMIDI.setHandleControlChange(OnControlChange);
@@ -157,6 +165,15 @@ void OnNoteOn(byte channel, byte note, byte velocity)
     }
   }
 
+  //INVERSE MOTOR DIRECTION
+  for (int b = 0; b < NUM_MOTORS; b++) {
+    if (note == MOTORINCCs[b]) {
+      //int val = map(value, 0, 127, LOW, HIGH);
+      //digitalWrite(MOTOR_I[b], value + 1 >> 7); //Send 0|1 based on 0-127 range
+      analogWrite(MOTOR_I[b], velocity * 2); //Send 0|1 based on 0-127 range
+    }
+  }
+
 }
 
 void OnNoteOff(byte channel, byte note, byte velocity)
@@ -168,28 +185,34 @@ void OnNoteOff(byte channel, byte note, byte velocity)
     }
   }
 
+    //INVERSE MOTOR DIRECTION
+  for (int b = 0; b < NUM_MOTORS; b++) {
+    if (note == MOTORINCCs[b]) {
+      //int val = map(value, 0, 127, LOW, HIGH);
+      //digitalWrite(MOTOR_I[b], value + 1 >> 7); //Send 0|1 based on 0-127 range
+      analogWrite(MOTOR_I[b], 0); //Send 0|1 based on 0-127 range
+    }
+  }
+
 }
 
 void OnControlChange(byte channel, byte number, byte value) {
 
+  //SERVO CONTROL
   for (int b = 0; b < NUM_SERVOS; b++) {
     if (number == SERVOCCs[b]) {
       int val = map(value, 0, 127, 0, 180);
       servo[b].write(val);
     }
   }
-
+  //MOTOR SPEED
   for (int b = 0; b < NUM_MOTORS; b++) {
     if (number == MOTORPWMCCs[b]) {
       analogWrite(MOTOR_S[b], value * 2);
     }
   }
 
-  for (int b = 0; b < NUM_MOTORS; b++) {
-    if (number == MOTORINCCs[b]) {
-      analogWrite(MOTOR_I[b], value * 2);
-    }
-  }
+
 }
 
 void loop() {

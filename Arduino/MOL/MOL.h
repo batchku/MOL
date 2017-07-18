@@ -75,8 +75,8 @@ const int POTS[]    = {AN1,
                        AN12};
 
 const int JPOTS[]   = {JOY_AN_H_M,
-                       JOY_AN_H_S,
                        JOY_AN_V_M,
+                       JOY_AN_H_S,
                        JOY_AN_V_S};
 
 const int BTNS[]    = {BTN1,

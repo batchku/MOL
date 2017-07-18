@@ -1,0 +1,18 @@
+#N canvas 0 23 1440 851 10;
+#X obj 192 134 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 117 134 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 192 314 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 117 314 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 153 280 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X floatatom 355 170 5 0 0 0 - - -, f 5;
+#X obj 367 76 loadbang;
+#X obj 356 144 f \$1;
+#X obj 241 50 inlet;
+#X connect 6 0 7 0;
+#X connect 7 0 5 0;
+#X coords 0 -1 1 1 125 250 1 100 100;
