@@ -22,11 +22,7 @@ const int JBTNCCs[]       = {110,
                              111};
                    
 //LED MIDI CC #s                 
-const int LEDCCs[]        = {60,
-                             61,
-                             62,
-                             63,
-                             64,
+const int LEDCCs[]        = {64,
                              65,
                              66,
                              67,
@@ -37,7 +33,11 @@ const int LEDCCs[]        = {60,
                              72,
                              73,
                              74,
-                             75};
+                             75,
+                             76,
+                             77,
+                             78,
+                             79};
 //User LEDs MIDI CC #s (duplicate, also inside LEDCCs[])                     
 const int USRCCs[]        = {72,
                              73,
