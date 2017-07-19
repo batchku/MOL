@@ -1,13 +1,13 @@
 #N canvas 227 23 1195 629 10;
-#X obj 272 114 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 205 121 vsl 15 64 0 127 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 197 114 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 130 121 vsl 15 64 0 127 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 306 314 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 205 229 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj 171 314 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 130 229 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj 234 252 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 167 189 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 899 130 loadbang;
 #X obj 899 158 f \$1;
@@ -18,8 +18,8 @@
 #X obj 1049 392 pack 0 0;
 #X obj 1168 393 pack 0 0;
 #X floatatom 1102 343 5 0 0 0 - - -, f 5;
-#X obj 197 48 r \$0potA;
-#X obj 262 48 r \$0potB;
+#X obj 123 78 r \$0potA;
+#X obj 188 78 r \$0potB;
 #X obj 1168 455 s \$0potB;
 #X obj 1049 454 s \$0potA;
 #X floatatom 1223 341 5 0 0 0 - - -, f 5;
@@ -36,18 +36,18 @@
 #X obj 1476 313 array get BUTTONS 0 1;
 #X obj 1299 454 s \$0btnA;
 #X obj 1438 454 s \$0btnB;
-#X obj 29 353 r \$0btnA;
-#X obj 408 353 r \$0btnB;
+#X obj 39 243 r \$0btnA;
+#X obj 258 242 r \$0btnB;
 #X obj 1299 362 notein;
 #X obj 1438 363 notein;
 #X obj 691 373 noteout;
-#X obj 251 287 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+#X obj 180 210 hsl 63 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X obj 732 312 array get LEDS 0 1;
 #X obj 691 338 f;
 #X obj 691 312 t b f;
 #X obj 531 373 noteout;
-#X obj 111 287 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+#X obj 106 210 hsl 63 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X obj 572 312 array get LEDS 0 1;
 #X obj 531 338 f;
@@ -64,20 +64,20 @@
 #X obj 861 287 * 127;
 #X floatatom 922 289 5 0 0 0 - - -, f 5;
 #X obj 902 267 + 12;
-#X obj 179 415 outlet;
-#X obj 228 415 outlet;
-#X obj 298 416 outlet;
-#X obj 346 416 outlet;
-#X obj 69 415 outlet;
-#X obj 118 415 outlet;
-#X text 82 443 POT A \, B;
-#X text 187 443 BUTTON A \, B;
+#X obj 159 305 outlet;
+#X obj 208 305 outlet;
+#X obj 278 306 outlet;
+#X obj 326 306 outlet;
+#X obj 49 305 outlet;
+#X obj 98 305 outlet;
+#X text 62 333 POT A \, B;
+#X text 167 333 BUTTON A \, B;
 #X text 9 31 BUTTON_LED A \, B;
 #X obj 16 49 inlet;
-#X text 300 443 BUTTON_LED A \, B;
+#X text 280 333 BUTTON_LED A \, B;
 #X obj 55 49 inlet, f 6;
-#X obj 378 46 inlet;
-#X text 379 28 STATUS LED;
+#X obj 258 161 inlet;
+#X text 259 143 STATUS LED;
 #X connect 4 0 55 0;
 #X connect 5 0 6 0;
 #X connect 6 0 21 0;
@@ -145,4 +145,4 @@
 #X connect 67 0 42 0;
 #X connect 69 0 37 0;
 #X connect 70 0 4 0;
-#X coords 0 -1 1 1 300 250 1 100 100;
+#X coords 0 -1 1 1 150 150 1 100 100;
