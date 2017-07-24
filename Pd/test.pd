@@ -1,4 +1,7 @@
 #N canvas 0 23 959 603 10;
+#X obj 588 61 mom.joy 1;
+#X obj 708 61 mom.joy 2;
+#X obj 619 253 mom.actuator;
 #X obj 25 31 mom.arrayReader;
 #X obj 195 62 mom.strip 3;
 #X obj 25 60 mom.strip 1;
@@ -6,8 +9,5 @@
 #X obj 366 63 mom.strip 5;
 #X obj 366 233 mom.strip 6;
 #X obj 25 230 mom.strip 2;
-#X obj 588 61 mom.joy 1;
-#X obj 708 61 mom.joy 2;
-#X obj 619 253 mom.actuator;
-#X connect 7 0 9 1;
-#X connect 7 1 9 0;
+#X connect 0 0 2 1;
+#X connect 0 1 2 0;
