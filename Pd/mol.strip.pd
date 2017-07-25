@@ -3,10 +3,10 @@
 -1 -1 0 1;
 #X obj 130 121 vsl 15 64 0 127 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 205 253 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
-#X obj 130 253 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 205 264 tgl 15 0 empty empty S2_Switch -12 22 0 8 -262144 -1
+-1 0 1;
+#X obj 130 264 tgl 15 0 empty empty S1_Switch -12 22 0 8 -262144 -1
+-1 0 1;
 #X obj 167 200 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 899 130 loadbang;
@@ -36,18 +36,18 @@
 #X obj 1476 313 array get BUTTONS 0 1;
 #X obj 1299 454 s \$0btnA;
 #X obj 1438 454 s \$0btnB;
-#X obj 39 243 r \$0btnA;
-#X obj 258 242 r \$0btnB;
+#X obj 19 243 r \$0btnA;
+#X obj 303 242 r \$0btnB;
 #X obj 1299 362 notein;
 #X obj 1438 363 notein;
 #X obj 691 373 noteout;
-#X obj 180 234 hsl 63 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+#X obj 180 235 hsl 63 15 0 127 0 0 empty empty S2_LED 18 22 0 8 -262144
 -1 -1 0 1;
 #X obj 732 312 array get LEDS 0 1;
 #X obj 691 338 f;
 #X obj 691 312 t b f;
 #X obj 531 373 noteout;
-#X obj 106 234 hsl 63 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+#X obj 106 235 hsl 63 15 0 127 0 0 empty empty S1_LED 18 22 0 8 -262144
 -1 -1 0 1;
 #X obj 572 312 array get LEDS 0 1;
 #X obj 531 338 f;
@@ -64,25 +64,25 @@
 #X obj 861 287 * 127;
 #X floatatom 922 289 5 0 0 0 - - -, f 5;
 #X obj 902 267 + 12;
-#X obj 159 305 outlet;
-#X obj 208 305 outlet;
-#X obj 278 306 outlet;
-#X obj 326 306 outlet;
-#X obj 49 305 outlet;
-#X obj 98 305 outlet;
-#X text 62 333 POT A \, B;
-#X text 167 333 BUTTON A \, B;
+#X obj 159 365 outlet;
+#X obj 208 365 outlet;
+#X obj 293 366 outlet;
+#X obj 341 366 outlet;
+#X obj 29 365 outlet;
+#X obj 78 365 outlet;
+#X text 42 393 POT A \, B;
+#X text 167 393 BUTTON A \, B;
 #X text 9 31 BUTTON_LED A \, B;
 #X obj 16 49 inlet;
-#X text 280 333 BUTTON_LED A \, B;
+#X text 295 393 BUTTON_LED A \, B;
 #X obj 55 49 inlet, f 6;
-#X obj 258 161 inlet;
-#X text 259 143 STATUS LED;
-#X text 117 187 Knob 1;
-#X text 192 188 Knob 2;
-#X text 129 271 S1;
-#X text 205 272 S2;
+#X obj 303 161 inlet;
+#X text 304 143 STATUS LED;
+#X text 129 291 S1;
+#X text 204 291 S2;
 #X text 160 216 LED1;
+#X text 195 189 Knob2;
+#X text 118 188 Knob1;
 #X connect 4 0 55 0;
 #X connect 5 0 6 0;
 #X connect 6 0 21 0;
@@ -150,4 +150,4 @@
 #X connect 67 0 42 0;
 #X connect 69 0 37 0;
 #X connect 70 0 4 0;
-#X coords 0 -1 1 1 150 187 1 100 100;
+#X coords 0 -1 1 1 150 210 1 100 100;

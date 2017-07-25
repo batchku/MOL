@@ -2,16 +2,16 @@
 #X msg 87 349 read inputs.txt;
 #X obj 87 373 text define -k inputs;
 #A set POTS 0 1 2 3 4 5 6 7 8 9 10 11 \; JOYPOTS 30 31 32 33 \; USERPOTS
-34 35 36 37 \; JOYBUTTONS 110 111 \; BUTTONS 64 65 66 67 68 69 70 71
-72 73 74 75 \; USERBUTTONS 76 77 78 79 \; LEDS 64 65 66 67 68 69 70
-71 72 73 74 75 76 77 78 79 \; USERLEDS 76 77 78 79 \; SERVOS 12 13
-\; MOTORPWMS 14 15 \; MOTORINS 16 17 \;;
+34 35 36 37 \; USERINS 38 39 40 41 \; JOYBUTTONS 110 111 \; BUTTONS
+64 65 66 67 68 69 70 71 72 73 74 75 \; USERBUTTONS 76 77 78 79 \; LEDS
+64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 \; USERLEDS 76 77 78
+79 \; SERVOS 12 13 \; MOTORPWMS 14 15 \; MOTORINS 16 17 \;;
 #X obj 79 621 text get inputs;
 #X floatatom 79 600 5 0 0 0 - - -, f 5;
-#X obj 79 825 array set POTS;
+#X obj 79 795 array set POTS;
 #X floatatom 530 367 5 0 0 0 - - -, f 5;
 #X obj 530 392 array get POTS 0 1;
-#X obj 80 847 array set BUTTONS;
+#X obj 80 817 array set BUTTONS;
 #X floatatom 657 366 5 0 0 0 - - -, f 5;
 #X obj 657 417 print BUTTONS;
 #X obj 530 418 print POTS;
@@ -19,7 +19,7 @@
 #X obj 36 754 print;
 #X msg 100 665 all;
 #X obj 79 726 route all;
-#X obj 80 870 array set JOYPOTS;
+#X obj 80 840 array set JOYPOTS;
 #X floatatom 800 365 5 0 0 0 - - -, f 5;
 #X obj 800 390 array get JOYPOTS 0 1;
 #X obj 800 416 print JOYPOTS;
@@ -42,11 +42,11 @@
 #X obj 171 403 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 171 451 - 1;
-#X obj 80 893 array set JOYBUTTONS;
-#X obj 81 916 array set LEDS;
-#X obj 82 938 array set SERVOS;
-#X obj 82 960 array set MOTORPWMS;
-#X obj 82 982 array set MOTORINS;
+#X obj 82 863 array set JOYBUTTONS;
+#X obj 83 886 array set LEDS;
+#X obj 84 908 array set SERVOS;
+#X obj 84 930 array set MOTORPWMS;
+#X obj 84 952 array set MOTORINS;
 #X obj 120 502 !=;
 #X msg 89 426 1;
 #X msg 60 426 0;
@@ -68,10 +68,9 @@
 #X obj 80 167 array define MOTORINS 0;
 #X obj 80 187 array define USERPOTS 0;
 #X obj 80 207 array define USERBUTTONS 0;
-#X obj 82 1004 array set USERPOTS;
-#X obj 82 1026 array set USERBUTTONS;
+#X obj 84 974 array set USERPOTS;
+#X obj 84 996 array set USERBUTTONS;
 #X floatatom 530 547 5 0 0 0 - - -, f 5;
-#X obj 530 598 print POTS;
 #X floatatom 530 637 5 0 0 0 - - -, f 5;
 #X obj 530 688 print LEDS;
 #X obj 530 572 array get USERPOTS 0 1;
@@ -79,12 +78,18 @@
 #X obj 142 292 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 80 227 array define USERLEDS 0;
-#X obj 79 753 route POTS BUTTONS JOYPOTS JOYBUTTONS LEDS SERVOS MOTORPWMS
-MOTORINS USERPOTS USERBUTTONS USERLEDS;
-#X obj 82 1046 array set USERBUTTONS;
 #X floatatom 700 637 5 0 0 0 - - -, f 5;
 #X obj 700 688 print LEDS;
 #X obj 700 662 array get USERLEDS 0 1;
+#X obj 80 247 array define USERINS 0;
+#X floatatom 700 547 5 0 0 0 - - -, f 5;
+#X obj 700 572 array get USERINS 0 1;
+#X obj 700 598 print USERINS;
+#X obj 530 598 print USERPOTS;
+#X obj 84 1016 array set USERLEDS;
+#X obj 84 1037 array set USERINS;
+#X obj 79 753 route POTS BUTTONS JOYPOTS JOYBUTTONS LEDS SERVOS MOTORPWMS
+MOTORINS USERPOTS USERBUTTONS USERLEDS USERINS, f 139;
 #X connect 0 0 1 0;
 #X connect 2 0 52 0;
 #X connect 3 0 2 0;
@@ -94,7 +99,7 @@ MOTORINS USERPOTS USERBUTTONS USERLEDS;
 #X connect 11 0 9 0;
 #X connect 13 0 52 0;
 #X connect 14 0 12 0;
-#X connect 14 0 73 0;
+#X connect 14 0 82 0;
 #X connect 16 0 17 0;
 #X connect 17 0 18 0;
 #X connect 19 0 24 0;
@@ -126,21 +131,24 @@ MOTORINS USERPOTS USERBUTTONS USERLEDS;
 #X connect 51 0 3 0;
 #X connect 51 0 42 0;
 #X connect 52 0 14 0;
-#X connect 65 0 69 0;
-#X connect 67 0 70 0;
-#X connect 69 0 66 0;
-#X connect 70 0 68 0;
-#X connect 71 0 48 0;
-#X connect 73 0 4 0;
-#X connect 73 1 7 0;
-#X connect 73 2 15 0;
-#X connect 73 3 37 0;
-#X connect 73 4 38 0;
-#X connect 73 5 39 0;
-#X connect 73 6 40 0;
-#X connect 73 7 41 0;
-#X connect 73 8 63 0;
-#X connect 73 9 64 0;
-#X connect 73 10 74 0;
-#X connect 75 0 77 0;
-#X connect 77 0 76 0;
+#X connect 65 0 68 0;
+#X connect 66 0 69 0;
+#X connect 68 0 79 0;
+#X connect 69 0 67 0;
+#X connect 70 0 48 0;
+#X connect 72 0 74 0;
+#X connect 74 0 73 0;
+#X connect 76 0 77 0;
+#X connect 77 0 78 0;
+#X connect 82 0 4 0;
+#X connect 82 1 7 0;
+#X connect 82 2 15 0;
+#X connect 82 3 37 0;
+#X connect 82 4 38 0;
+#X connect 82 5 39 0;
+#X connect 82 6 40 0;
+#X connect 82 7 41 0;
+#X connect 82 8 63 0;
+#X connect 82 9 64 0;
+#X connect 82 10 80 0;
+#X connect 82 11 81 0;
