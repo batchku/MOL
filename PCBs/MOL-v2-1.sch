@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tPadExt" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bPadExt" color="1" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -690,6 +690,37 @@ Manufacturer Part Number
 <pad name="VUSB" x="3.81" y="13.97" drill="1"/>
 <text x="27.94" y="8.89" size="1.27" layer="21">Teensy 3.6</text>
 </package>
+<package name="TRIM-PCB-9MM">
+<pad name="2" x="0" y="-7.500009375" drill="0.9" diameter="1.778"/>
+<pad name="1" x="-2.54" y="-7.500009375" drill="0.9" diameter="1.778"/>
+<pad name="3" x="2.54" y="-7.500009375" drill="0.9" diameter="1.778"/>
+<wire x1="-4.7625" y1="-6.223" x2="4.7625" y2="-6.223" width="0.127" layer="21"/>
+<wire x1="4.7625" y1="4.826" x2="-4.7625" y2="4.826" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.032" width="0.127" layer="21"/>
+<text x="-8.89" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="8.89" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<pad name="5" x="-4.799990625" y="0" drill="2.8448" diameter="4"/>
+<pad name="M2" x="4.799990625" y="0" drill="2.8448" diameter="4"/>
+<wire x1="-4.7625" y1="2.54" x2="-4.7625" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="4.7625" y1="2.54" x2="4.7625" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="-4.7625" y1="-6.223" x2="-4.7625" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="4.7625" y1="-6.223" x2="4.7625" y2="-2.54" width="0.127" layer="21"/>
+</package>
+<package name="TRIM-3386">
+<pad name="2" x="0" y="-2.8575" drill="0.9" diameter="1.778"/>
+<pad name="1" x="-2.54" y="-2.8575" drill="0.9" diameter="1.778"/>
+<pad name="3" x="2.54" y="-2.8575" drill="0.9" diameter="1.778"/>
+<wire x1="-4.7625" y1="-4.7625" x2="4.7625" y2="-4.7625" width="0.127" layer="21"/>
+<wire x1="4.7625" y1="-4.7625" x2="4.7625" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="4.7625" y1="4.7625" x2="-4.7625" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="-4.7625" y1="4.7625" x2="-4.7625" y2="-4.7625" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3.302" width="0.127" layer="21"/>
+<text x="-5.08" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.35" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<pad name="4" x="-2.54" y="-0.3175" drill="0.9" diameter="1.778"/>
+<pad name="5" x="0" y="-0.3175" drill="0.9" diameter="1.778"/>
+<pad name="6" x="2.54" y="-0.3175" drill="0.9" diameter="1.778"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R1NV">
@@ -929,6 +960,166 @@ Manufacturer Part Number
 <pin name="VIN" x="106.68" y="30.48" length="middle" rot="R180"/>
 <pin name="VUSB" x="106.68" y="33.02" length="middle" rot="R180"/>
 <text x="38.1" y="-2.54" size="1.778" layer="94">7/14/17 Ali Momeni</text>
+</symbol>
+<symbol name="MIDI">
+<wire x1="-10.16" y1="81.28" x2="10.16" y2="81.28" width="0.254" layer="94"/>
+<wire x1="10.16" y1="81.28" x2="10.16" y2="-83.82" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-83.82" x2="-10.16" y2="-83.82" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-83.82" x2="-10.16" y2="81.28" width="0.254" layer="94"/>
+<pin name="0" x="-15.24" y="78.74" length="middle"/>
+<pin name="1" x="-15.24" y="76.2" length="middle"/>
+<pin name="2" x="-15.24" y="73.66" length="middle"/>
+<pin name="3" x="-15.24" y="71.12" length="middle"/>
+<pin name="4" x="-15.24" y="68.58" length="middle"/>
+<pin name="5" x="-15.24" y="66.04" length="middle"/>
+<pin name="6" x="-15.24" y="63.5" length="middle"/>
+<pin name="7" x="-15.24" y="60.96" length="middle"/>
+<pin name="8" x="-15.24" y="58.42" length="middle"/>
+<pin name="9" x="-15.24" y="55.88" length="middle"/>
+<pin name="10" x="-15.24" y="53.34" length="middle"/>
+<pin name="11" x="-15.24" y="50.8" length="middle"/>
+<pin name="12" x="-15.24" y="48.26" length="middle"/>
+<pin name="13" x="-15.24" y="45.72" length="middle"/>
+<pin name="14" x="-15.24" y="43.18" length="middle"/>
+<pin name="15" x="-15.24" y="40.64" length="middle"/>
+<pin name="16" x="-15.24" y="38.1" length="middle"/>
+<pin name="17" x="-15.24" y="35.56" length="middle"/>
+<pin name="18" x="-15.24" y="33.02" length="middle"/>
+<pin name="19" x="-15.24" y="30.48" length="middle"/>
+<pin name="20" x="-15.24" y="27.94" length="middle"/>
+<pin name="21" x="-15.24" y="25.4" length="middle"/>
+<pin name="22" x="-15.24" y="22.86" length="middle"/>
+<pin name="23" x="-15.24" y="20.32" length="middle"/>
+<pin name="24" x="-15.24" y="17.78" length="middle"/>
+<pin name="25" x="-15.24" y="15.24" length="middle"/>
+<pin name="26" x="-15.24" y="12.7" length="middle"/>
+<pin name="27" x="-15.24" y="10.16" length="middle"/>
+<pin name="28" x="-15.24" y="7.62" length="middle"/>
+<pin name="29" x="-15.24" y="5.08" length="middle"/>
+<pin name="30" x="-15.24" y="2.54" length="middle"/>
+<pin name="31" x="-15.24" y="0" length="middle"/>
+<pin name="32" x="-15.24" y="-2.54" length="middle"/>
+<pin name="33" x="-15.24" y="-5.08" length="middle"/>
+<pin name="34" x="-15.24" y="-7.62" length="middle"/>
+<pin name="35" x="-15.24" y="-10.16" length="middle"/>
+<pin name="36" x="-15.24" y="-12.7" length="middle"/>
+<pin name="37" x="-15.24" y="-15.24" length="middle"/>
+<pin name="38" x="-15.24" y="-17.78" length="middle"/>
+<pin name="39" x="-15.24" y="-20.32" length="middle"/>
+<pin name="40" x="-15.24" y="-22.86" length="middle"/>
+<pin name="41" x="-15.24" y="-25.4" length="middle"/>
+<pin name="42" x="-15.24" y="-27.94" length="middle"/>
+<pin name="43" x="-15.24" y="-30.48" length="middle"/>
+<pin name="44" x="-15.24" y="-33.02" length="middle"/>
+<pin name="45" x="-15.24" y="-35.56" length="middle"/>
+<pin name="46" x="-15.24" y="-38.1" length="middle"/>
+<pin name="47" x="-15.24" y="-40.64" length="middle"/>
+<pin name="48" x="-15.24" y="-43.18" length="middle"/>
+<pin name="49" x="-15.24" y="-45.72" length="middle"/>
+<pin name="50" x="-15.24" y="-48.26" length="middle"/>
+<pin name="51" x="-15.24" y="-50.8" length="middle"/>
+<pin name="52" x="-15.24" y="-53.34" length="middle"/>
+<pin name="53" x="-15.24" y="-55.88" length="middle"/>
+<pin name="54" x="-15.24" y="-58.42" length="middle"/>
+<pin name="55" x="-15.24" y="-60.96" length="middle"/>
+<pin name="56" x="-15.24" y="-63.5" length="middle"/>
+<pin name="57" x="-15.24" y="-66.04" length="middle"/>
+<pin name="58" x="-15.24" y="-68.58" length="middle"/>
+<pin name="59" x="-15.24" y="-71.12" length="middle"/>
+<pin name="60" x="-15.24" y="-73.66" length="middle"/>
+<pin name="61" x="-15.24" y="-76.2" length="middle"/>
+<pin name="62" x="-15.24" y="-78.74" length="middle"/>
+<pin name="63" x="-15.24" y="-81.28" length="middle"/>
+<pin name="64" x="15.24" y="-81.28" length="middle" rot="R180"/>
+<pin name="65" x="15.24" y="-78.74" length="middle" rot="R180"/>
+<pin name="66" x="15.24" y="-76.2" length="middle" rot="R180"/>
+<pin name="67" x="15.24" y="-73.66" length="middle" rot="R180"/>
+<pin name="68" x="15.24" y="-71.12" length="middle" rot="R180"/>
+<pin name="69" x="15.24" y="-68.58" length="middle" rot="R180"/>
+<pin name="70" x="15.24" y="-66.04" length="middle" rot="R180"/>
+<pin name="71" x="15.24" y="-63.5" length="middle" rot="R180"/>
+<pin name="72" x="15.24" y="-60.96" length="middle" rot="R180"/>
+<pin name="73" x="15.24" y="-58.42" length="middle" rot="R180"/>
+<pin name="74" x="15.24" y="-55.88" length="middle" rot="R180"/>
+<pin name="75" x="15.24" y="-53.34" length="middle" rot="R180"/>
+<pin name="76" x="15.24" y="-50.8" length="middle" rot="R180"/>
+<pin name="77" x="15.24" y="-48.26" length="middle" rot="R180"/>
+<pin name="78" x="15.24" y="-45.72" length="middle" rot="R180"/>
+<pin name="79" x="15.24" y="-43.18" length="middle" rot="R180"/>
+<pin name="80" x="15.24" y="-40.64" length="middle" rot="R180"/>
+<pin name="81" x="15.24" y="-38.1" length="middle" rot="R180"/>
+<pin name="82" x="15.24" y="-35.56" length="middle" rot="R180"/>
+<pin name="83" x="15.24" y="-33.02" length="middle" rot="R180"/>
+<pin name="84" x="15.24" y="-30.48" length="middle" rot="R180"/>
+<pin name="85" x="15.24" y="-27.94" length="middle" rot="R180"/>
+<pin name="86" x="15.24" y="-25.4" length="middle" rot="R180"/>
+<pin name="87" x="15.24" y="-22.86" length="middle" rot="R180"/>
+<pin name="88" x="15.24" y="-20.32" length="middle" rot="R180"/>
+<pin name="89" x="15.24" y="-17.78" length="middle" rot="R180"/>
+<pin name="90" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="91" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="92" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="93" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="94" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="95" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="96" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="97" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="98" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="99" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="100" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="101" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="102" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="103" x="15.24" y="17.78" length="middle" rot="R180"/>
+<pin name="104" x="15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="105" x="15.24" y="22.86" length="middle" rot="R180"/>
+<pin name="106" x="15.24" y="25.4" length="middle" rot="R180"/>
+<pin name="107" x="15.24" y="27.94" length="middle" rot="R180"/>
+<pin name="108" x="15.24" y="30.48" length="middle" rot="R180"/>
+<pin name="109" x="15.24" y="33.02" length="middle" rot="R180"/>
+<pin name="110" x="15.24" y="35.56" length="middle" rot="R180"/>
+<pin name="111" x="15.24" y="38.1" length="middle" rot="R180"/>
+<pin name="112" x="15.24" y="40.64" length="middle" rot="R180"/>
+<pin name="113" x="15.24" y="43.18" length="middle" rot="R180"/>
+<pin name="114" x="15.24" y="45.72" length="middle" rot="R180"/>
+<pin name="115" x="15.24" y="48.26" length="middle" rot="R180"/>
+<pin name="116" x="15.24" y="50.8" length="middle" rot="R180"/>
+<pin name="117" x="15.24" y="53.34" length="middle" rot="R180"/>
+<pin name="118" x="15.24" y="55.88" length="middle" rot="R180"/>
+<pin name="119" x="15.24" y="58.42" length="middle" rot="R180"/>
+<pin name="120" x="15.24" y="60.96" length="middle" rot="R180"/>
+<pin name="121" x="15.24" y="63.5" length="middle" rot="R180"/>
+<pin name="122" x="15.24" y="66.04" length="middle" rot="R180"/>
+<pin name="123" x="15.24" y="68.58" length="middle" rot="R180"/>
+<pin name="124" x="15.24" y="71.12" length="middle" rot="R180"/>
+<pin name="125" x="15.24" y="73.66" length="middle" rot="R180"/>
+<pin name="126" x="15.24" y="76.2" length="middle" rot="R180"/>
+<pin name="127" x="15.24" y="78.74" length="middle" rot="R180"/>
+<text x="-3.556" y="82.042" size="1.27" layer="95">&gt;NAME</text>
+<text x="-0.762" y="0" size="1.27" layer="96" rot="R270">&gt;VALUE</text>
+</symbol>
+<symbol name="TRIM">
+<wire x1="0" y1="-5.08" x2="0" y2="-4.572" width="0.1524" layer="94"/>
+<wire x1="0" y1="-4.572" x2="-1.016" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-1.016" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="3.81" x2="0" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="4.572" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="0" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.032" y1="-4.699" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-2.159" x2="2.667" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="2.667" y1="-3.429" x2="1.397" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-3.429" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
+<text x="-5.08" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="E" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1241,6 +1432,45 @@ Manufacturer Part Number
 <connect gate="G$1" pin="VBAT" pad="VBAT"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 <connect gate="G$1" pin="VUSB" pad="VUSB"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIDI_PORTS">
+<gates>
+<gate name="G$1" symbol="MIDI" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TRIM" prefix="TM" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TRIM" x="-7.62" y="2.54"/>
+</gates>
+<devices>
+<device name="3386" package="TRIM-3386">
+<connects>
+<connect gate="G$1" pin="A" pad="1 4"/>
+<connect gate="G$1" pin="E" pad="3 6"/>
+<connect gate="G$1" pin="S" pad="2 5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="TRIM-PCB-9MM">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4260,37 +4490,6 @@ ULN and UDN Series&lt;p&gt;
 <circle x="2.54" y="1.27" radius="0.127" width="0.127" layer="21"/>
 <text x="-3.556" y="-5.334" size="1.27" layer="25">&gt;NAME</text>
 </package>
-<package name="TRIM-3386">
-<pad name="2" x="0" y="-2.8575" drill="0.9" diameter="1.778"/>
-<pad name="1" x="-2.54" y="-2.8575" drill="0.9" diameter="1.778"/>
-<pad name="3" x="2.54" y="-2.8575" drill="0.9" diameter="1.778"/>
-<wire x1="-4.7625" y1="-4.7625" x2="4.7625" y2="-4.7625" width="0.127" layer="21"/>
-<wire x1="4.7625" y1="-4.7625" x2="4.7625" y2="4.7625" width="0.127" layer="21"/>
-<wire x1="4.7625" y1="4.7625" x2="-4.7625" y2="4.7625" width="0.127" layer="21"/>
-<wire x1="-4.7625" y1="4.7625" x2="-4.7625" y2="-4.7625" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3.302" width="0.127" layer="21"/>
-<text x="-5.08" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="6.35" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<pad name="4" x="-2.54" y="-0.3175" drill="0.9" diameter="1.778"/>
-<pad name="5" x="0" y="-0.3175" drill="0.9" diameter="1.778"/>
-<pad name="6" x="2.54" y="-0.3175" drill="0.9" diameter="1.778"/>
-</package>
-<package name="TRIM-PCB-9MM">
-<pad name="2" x="0" y="-7.500009375" drill="0.9" diameter="1.778"/>
-<pad name="1" x="-2.54" y="-7.500009375" drill="0.9" diameter="1.778"/>
-<pad name="3" x="2.54" y="-7.500009375" drill="0.9" diameter="1.778"/>
-<wire x1="-4.7625" y1="-6.223" x2="4.7625" y2="-6.223" width="0.127" layer="21"/>
-<wire x1="4.7625" y1="4.826" x2="-4.7625" y2="4.826" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="2.032" width="0.127" layer="21"/>
-<text x="-8.89" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="8.89" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<pad name="5" x="-4.799990625" y="0" drill="2.8448" diameter="4"/>
-<pad name="M2" x="4.799990625" y="0" drill="2.8448" diameter="4"/>
-<wire x1="-4.7625" y1="2.54" x2="-4.7625" y2="4.7625" width="0.127" layer="21"/>
-<wire x1="4.7625" y1="2.54" x2="4.7625" y2="4.7625" width="0.127" layer="21"/>
-<wire x1="-4.7625" y1="-6.223" x2="-4.7625" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="4.7625" y1="-6.223" x2="4.7625" y2="-2.54" width="0.127" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="TR2-SWITCH-MOMENTARY-LED">
@@ -4331,30 +4530,6 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.2032" layer="94"/>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.2032" layer="94"/>
 </symbol>
-<symbol name="TRIM">
-<wire x1="0" y1="-5.08" x2="0" y2="-4.572" width="0.1524" layer="94"/>
-<wire x1="0" y1="-4.572" x2="-1.016" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="-1.016" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="3.81" x2="0" y2="4.572" width="0.254" layer="94"/>
-<wire x1="0" y1="4.572" x2="0" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="1.27" y2="0" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.2032" layer="94"/>
-<wire x1="2.032" y1="-4.699" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="2.032" y1="-2.159" x2="2.667" y2="-3.429" width="0.1524" layer="94"/>
-<wire x1="2.667" y1="-3.429" x2="1.397" y2="-3.429" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-3.429" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
-<text x="-5.08" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="E" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SW-LED" prefix="S">
@@ -4371,33 +4546,6 @@ ULN and UDN Series&lt;p&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TRIM" prefix="TM" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="TRIM" x="-7.62" y="2.54"/>
-</gates>
-<devices>
-<device name="3386" package="TRIM-3386">
-<connects>
-<connect gate="G$1" pin="A" pad="1 4"/>
-<connect gate="G$1" pin="E" pad="3 6"/>
-<connect gate="G$1" pin="S" pad="2 5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="" package="TRIM-PCB-9MM">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9503,7 +9651,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND14" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 <part name="S5" library="Daniel" deviceset="SW-LED" device="PTH"/>
-<part name="KNOB1" library="Daniel" deviceset="TRIM" device=""/>
+<part name="KNOB1" library="CMU-ArtFab" deviceset="TRIM" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="M03" device="1X03_NO_SILK" value="AN-IN-1"/>
 <part name="+5V11" library="supply1" deviceset="V+" device="">
 <attribute name="5V" value="+5V"/>
@@ -9512,7 +9660,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND15" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 <part name="S6" library="Daniel" deviceset="SW-LED" device="PTH"/>
-<part name="KNOB2" library="Daniel" deviceset="TRIM" device=""/>
+<part name="KNOB2" library="CMU-ArtFab" deviceset="TRIM" device=""/>
 <part name="J7" library="SparkFun-Connectors" deviceset="M03" device="1X03_NO_SILK" value="AN-IN-2"/>
 <part name="+5V12" library="supply1" deviceset="V+" device="">
 <attribute name="5V" value="+5V"/>
@@ -9521,7 +9669,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND16" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 <part name="S7" library="Daniel" deviceset="SW-LED" device="PTH"/>
-<part name="KNOB3" library="Daniel" deviceset="TRIM" device=""/>
+<part name="KNOB3" library="CMU-ArtFab" deviceset="TRIM" device=""/>
 <part name="J8" library="SparkFun-Connectors" deviceset="M03" device="1X03_NO_SILK" value="AN-IN-3"/>
 <part name="+5V13" library="supply1" deviceset="V+" device="">
 <attribute name="5V" value="+5V"/>
@@ -9530,7 +9678,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND17" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 <part name="S8" library="Daniel" deviceset="SW-LED" device="PTH"/>
-<part name="KNOB4" library="Daniel" deviceset="TRIM" device=""/>
+<part name="KNOB4" library="CMU-ArtFab" deviceset="TRIM" device=""/>
 <part name="J9" library="SparkFun-Connectors" deviceset="M03" device="1X03_NO_SILK" value="AN-IN-4"/>
 <part name="+5V14" library="supply1" deviceset="V+" device="">
 <attribute name="5V" value="+5V"/>
@@ -9551,7 +9699,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" value="330"/>
 <part name="SW1" library="CMU-ArtFab" deviceset="SWITCH_SPDT" device="500SSP1S2M2QEA" value="500SSP1S2M2QEA"/>
-<part name="U$1" library="CMU-ArtFab" deviceset="TEENSY3_6-ALI_NO-USB-HOST" device=""/>
+<part name="TEENSY" library="CMU-ArtFab" deviceset="TEENSY3_6-ALI_NO-USB-HOST" device=""/>
+<part name="MIDI_IN" library="CMU-ArtFab" deviceset="MIDI_PORTS" device=""/>
+<part name="MIDI_OUT" library="CMU-ArtFab" deviceset="MIDI_PORTS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9587,6 +9737,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="165.1" y1="127" x2="165.1" y2="7.62" width="0.1524" layer="90"/>
 <wire x1="165.1" y1="7.62" x2="256.54" y2="7.62" width="0.1524" layer="90"/>
 <text x="30.48" y="254" size="5.08" layer="91">Teensy 3.6</text>
+<wire x1="276.86" y1="193.04" x2="398.78" y2="193.04" width="0.1524" layer="90"/>
+<wire x1="398.78" y1="193.04" x2="398.78" y2="2.54" width="0.1524" layer="90"/>
+<wire x1="398.78" y1="2.54" x2="276.86" y2="2.54" width="0.1524" layer="90"/>
+<wire x1="276.86" y1="193.04" x2="276.86" y2="2.54" width="0.1524" layer="90"/>
+<text x="284.48" y="182.88" size="5.08" layer="91">MIDI CONNECTIONS</text>
 </plain>
 <instances>
 <instance part="J1" gate="J$1" x="238.76" y="193.04" rot="R180"/>
@@ -9701,7 +9856,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="218.44" y="241.3" size="1.778" layer="95"/>
 <attribute name="VALUE" x="203.2" y="243.84" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="30.48" y="139.7"/>
+<instance part="TEENSY" gate="G$1" x="30.48" y="139.7"/>
+<instance part="MIDI_IN" gate="G$1" x="307.34" y="88.9"/>
+<instance part="MIDI_OUT" gate="G$1" x="365.76" y="88.9"/>
 </instances>
 <busses>
 </busses>
@@ -9785,7 +9942,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 <wire x1="25.4" y1="246.38" x2="2.54" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="TEENSY" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="GND"/>
@@ -9807,7 +9964,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="99.06" y1="251.46" x2="109.22" y2="251.46" width="0.1524" layer="91"/>
 <label x="109.22" y="251.46" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="54/CS2-1"/>
+<pinref part="TEENSY" gate="G$1" pin="54/CS2-1"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="12"/>
+<wire x1="292.1" y1="137.16" x2="289.56" y2="137.16" width="0.1524" layer="91"/>
+<label x="289.56" y="137.16" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AGND" class="3">
@@ -9885,7 +10047,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="137.16" y1="144.78" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="144.78" x2="152.4" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="AGND"/>
-<pinref part="U$1" gate="G$1" pin="AGND"/>
+<pinref part="TEENSY" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="G$1" pin="AGND"/>
@@ -9909,7 +10071,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="99.06" y1="256.54" x2="109.22" y2="256.54" width="0.1524" layer="91"/>
 <label x="109.22" y="256.54" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="56/SDA3"/>
+<pinref part="TEENSY" gate="G$1" pin="56/SDA3"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="13"/>
+<wire x1="292.1" y1="134.62" x2="289.56" y2="134.62" width="0.1524" layer="91"/>
+<label x="289.56" y="134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B3" class="0">
@@ -9921,7 +10088,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="213.36" x2="15.24" y2="213.36" width="0.1524" layer="91"/>
 <label x="15.24" y="213.36" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="12/MISO0"/>
+<pinref part="TEENSY" gate="G$1" pin="12/MISO0"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="14"/>
+<wire x1="292.1" y1="132.08" x2="289.56" y2="132.08" width="0.1524" layer="91"/>
+<label x="289.56" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B4" class="0">
@@ -9933,7 +10105,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="208.28" x2="15.24" y2="208.28" width="0.1524" layer="91"/>
 <label x="15.24" y="208.28" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="24"/>
+<pinref part="TEENSY" gate="G$1" pin="24"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="15"/>
+<wire x1="292.1" y1="129.54" x2="289.56" y2="129.54" width="0.1524" layer="91"/>
+<label x="289.56" y="129.54" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B5" class="0">
@@ -9945,7 +10122,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="241.3" x2="15.24" y2="241.3" width="0.1524" layer="91"/>
 <label x="15.24" y="241.3" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="1/TX1/MISO1/T"/>
+<pinref part="TEENSY" gate="G$1" pin="1/TX1/MISO1/T"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="16"/>
+<wire x1="292.1" y1="127" x2="289.56" y2="127" width="0.1524" layer="91"/>
+<label x="289.56" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B6" class="0">
@@ -9956,7 +10138,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="215.9" x2="15.24" y2="215.9" width="0.1524" layer="91"/>
 <label x="15.24" y="215.9" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="11/MOSI0"/>
+<pinref part="TEENSY" gate="G$1" pin="11/MOSI0"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="17"/>
+<wire x1="292.1" y1="124.46" x2="289.56" y2="124.46" width="0.1524" layer="91"/>
+<label x="289.56" y="124.46" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B7" class="0">
@@ -9968,7 +10155,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="203.2" x2="15.24" y2="203.2" width="0.1524" layer="91"/>
 <label x="15.24" y="203.2" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="26/ALT-PWM/ALT-TX1/ALT-SCL2"/>
+<pinref part="TEENSY" gate="G$1" pin="26/ALT-PWM/ALT-TX1/ALT-SCL2"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="18"/>
+<wire x1="292.1" y1="121.92" x2="289.56" y2="121.92" width="0.1524" layer="91"/>
+<label x="289.56" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="M_PWMB" class="0">
@@ -9980,7 +10172,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="193.04" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
 <label x="154.94" y="193.04" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="35/A16/PWM"/>
+<pinref part="TEENSY" gate="G$1" pin="35/A16/PWM"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="37"/>
+<wire x1="350.52" y1="73.66" x2="347.98" y2="73.66" width="0.1524" layer="91"/>
+<label x="347.98" y="73.66" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="M_PWMA" class="0">
@@ -9992,7 +10189,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="195.58" x2="154.94" y2="195.58" width="0.1524" layer="91"/>
 <label x="154.94" y="195.58" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="36/A17/PWM"/>
+<pinref part="TEENSY" gate="G$1" pin="36/A17/PWM"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="36"/>
+<wire x1="350.52" y1="76.2" x2="347.98" y2="76.2" width="0.1524" layer="91"/>
+<label x="347.98" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="M_AIN" class="0">
@@ -10004,7 +10206,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="50.8" y1="170.18" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
 <label x="38.1" y="170.18" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="45/CS0-5/MISO2"/>
+<pinref part="TEENSY" gate="G$1" pin="45/CS0-5/MISO2"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="38"/>
+<wire x1="350.52" y1="71.12" x2="347.98" y2="71.12" width="0.1524" layer="91"/>
+<label x="347.98" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="M_BIN" class="0">
@@ -10016,7 +10223,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="50.8" y1="167.64" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
 <label x="38.1" y="167.64" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="46/SCK2"/>
+<pinref part="TEENSY" gate="G$1" pin="46/SCK2"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="39"/>
+<wire x1="350.52" y1="68.58" x2="347.98" y2="68.58" width="0.1524" layer="91"/>
+<label x="347.98" y="68.58" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="JOYH2" class="3">
@@ -10028,7 +10240,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="190.5" x2="15.24" y2="190.5" width="0.1524" layer="91"/>
 <label x="15.24" y="190.5" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="31/A12/PWM/RX4/CS1-0"/>
+<pinref part="TEENSY" gate="G$1" pin="31/A12/PWM/RX4/CS1-0"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="31"/>
+<wire x1="292.1" y1="88.9" x2="289.56" y2="88.9" width="0.1524" layer="91"/>
+<label x="289.56" y="88.9" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="JOYV2" class="3">
@@ -10040,7 +10257,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="187.96" x2="15.24" y2="187.96" width="0.1524" layer="91"/>
 <label x="15.24" y="187.96" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="32/A13/PWM/TX4/SCK1"/>
+<pinref part="TEENSY" gate="G$1" pin="32/A13/PWM/TX4/SCK1"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="29"/>
+<wire x1="292.1" y1="93.98" x2="289.56" y2="93.98" width="0.1524" layer="91"/>
+<label x="289.56" y="93.98" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B12" class="0">
@@ -10052,7 +10274,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="99.06" y1="170.18" x2="109.22" y2="170.18" width="0.1524" layer="91"/>
 <label x="109.22" y="170.18" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="48/SDA0/TX6"/>
+<pinref part="TEENSY" gate="G$1" pin="48/SDA0/TX6"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="23"/>
+<wire x1="292.1" y1="109.22" x2="289.56" y2="109.22" width="0.1524" layer="91"/>
+<label x="289.56" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B11" class="0">
@@ -10064,7 +10291,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="99.06" y1="180.34" x2="109.22" y2="180.34" width="0.1524" layer="91"/>
 <label x="109.22" y="180.34" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="52/MOSI2"/>
+<pinref part="TEENSY" gate="G$1" pin="52/MOSI2"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="22"/>
+<wire x1="292.1" y1="111.76" x2="289.56" y2="111.76" width="0.1524" layer="91"/>
+<label x="289.56" y="111.76" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B10" class="0">
@@ -10076,7 +10308,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="50.8" y1="182.88" x2="38.1" y2="182.88" width="0.1524" layer="91"/>
 <label x="38.1" y="182.88" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="40"/>
+<pinref part="TEENSY" gate="G$1" pin="40"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="21"/>
+<wire x1="292.1" y1="114.3" x2="289.56" y2="114.3" width="0.1524" layer="91"/>
+<label x="289.56" y="114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B9" class="0">
@@ -10088,7 +10325,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="200.66" x2="15.24" y2="200.66" width="0.1524" layer="91"/>
 <label x="15.24" y="200.66" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="27/ALT-RX1/ALT-SCK0"/>
+<pinref part="TEENSY" gate="G$1" pin="27/ALT-RX1/ALT-SCK0"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="20"/>
+<wire x1="292.1" y1="116.84" x2="289.56" y2="116.84" width="0.1524" layer="91"/>
+<label x="289.56" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B8" class="0">
@@ -10100,7 +10342,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="205.74" x2="15.24" y2="205.74" width="0.1524" layer="91"/>
 <label x="15.24" y="205.74" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="25"/>
+<pinref part="TEENSY" gate="G$1" pin="25"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="19"/>
+<wire x1="292.1" y1="119.38" x2="289.56" y2="119.38" width="0.1524" layer="91"/>
+<label x="289.56" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+5V" class="2">
@@ -10161,7 +10408,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="190.5" x2="154.94" y2="190.5" width="0.1524" layer="91"/>
 <label x="154.94" y="190.5" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="34/A15/CAN1RX/RX5/ALT-SDA0"/>
+<pinref part="TEENSY" gate="G$1" pin="34/A15/CAN1RX/RX5/ALT-SDA0"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="34"/>
+<wire x1="350.52" y1="81.28" x2="347.98" y2="81.28" width="0.1524" layer="91"/>
+<label x="347.98" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="S2" class="0">
@@ -10178,7 +10430,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="187.96" x2="154.94" y2="187.96" width="0.1524" layer="91"/>
 <label x="154.94" y="187.96" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="33/A14/CAN1TX/TX5/ALT-SCL0"/>
+<pinref part="TEENSY" gate="G$1" pin="33/A14/CAN1TX/TX5/ALT-SCL0"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="35"/>
+<wire x1="350.52" y1="78.74" x2="347.98" y2="78.74" width="0.1524" layer="91"/>
+<label x="347.98" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LED3" class="0">
@@ -10190,7 +10447,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="243.84" x2="15.24" y2="243.84" width="0.1524" layer="91"/>
 <label x="15.24" y="243.84" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="0/RX1/MOSI1/T"/>
+<pinref part="TEENSY" gate="G$1" pin="0/RX1/MOSI1/T"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -10286,7 +10543,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="25.4" y1="248.92" x2="2.54" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="248.92" x2="2.54" y2="254" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="3V3"/>
+<pinref part="TEENSY" gate="G$1" pin="3V3"/>
 </segment>
 </net>
 <net name="AN1" class="3">
@@ -10298,7 +10555,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="236.22" x2="154.94" y2="236.22" width="0.1524" layer="91"/>
 <label x="154.94" y="236.22" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="22/A8/PWM/T"/>
+<pinref part="TEENSY" gate="G$1" pin="22/A8/PWM/T"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="0"/>
+<wire x1="292.1" y1="167.64" x2="289.56" y2="167.64" width="0.1524" layer="91"/>
+<label x="289.56" y="167.64" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AN2" class="3">
@@ -10310,7 +10572,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="238.76" x2="154.94" y2="238.76" width="0.1524" layer="91"/>
 <label x="154.94" y="238.76" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="23/A9/PWM/T"/>
+<pinref part="TEENSY" gate="G$1" pin="23/A9/PWM/T"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="1"/>
+<wire x1="292.1" y1="165.1" x2="289.56" y2="165.1" width="0.1524" layer="91"/>
+<label x="289.56" y="165.1" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AN3" class="3">
@@ -10322,7 +10589,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="231.14" x2="154.94" y2="231.14" width="0.1524" layer="91"/>
 <label x="154.94" y="231.14" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="20/A6/PWM/CS0-2/ALT-SCK1"/>
+<pinref part="TEENSY" gate="G$1" pin="20/A6/PWM/CS0-2/ALT-SCK1"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="2"/>
+<wire x1="292.1" y1="162.56" x2="289.56" y2="162.56" width="0.1524" layer="91"/>
+<label x="289.56" y="162.56" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AN4" class="3">
@@ -10334,7 +10606,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="233.68" x2="154.94" y2="233.68" width="0.1524" layer="91"/>
 <label x="154.94" y="233.68" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="21/A7/PWM/CS0-3/ALT-MOSI1/ALT-RX1"/>
+<pinref part="TEENSY" gate="G$1" pin="21/A7/PWM/CS0-3/ALT-MOSI1/ALT-RX1"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="3"/>
+<wire x1="292.1" y1="160.02" x2="289.56" y2="160.02" width="0.1524" layer="91"/>
+<label x="289.56" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AN5" class="3">
@@ -10351,7 +10628,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="228.6" x2="154.94" y2="228.6" width="0.1524" layer="91"/>
 <label x="154.94" y="228.6" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="19/A5/PWM/T/SCL0"/>
+<pinref part="TEENSY" gate="G$1" pin="19/A5/PWM/T/SCL0"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="4"/>
+<wire x1="292.1" y1="157.48" x2="289.56" y2="157.48" width="0.1524" layer="91"/>
+<label x="289.56" y="157.48" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AN6" class="3">
@@ -10367,7 +10649,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="203.2" x2="154.94" y2="203.2" width="0.1524" layer="91"/>
 <label x="154.94" y="203.2" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="39/A20/ALT-MISO0"/>
+<pinref part="TEENSY" gate="G$1" pin="39/A20/ALT-MISO0"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="5"/>
+<wire x1="292.1" y1="154.94" x2="289.56" y2="154.94" width="0.1524" layer="91"/>
+<label x="289.56" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AN7" class="3">
@@ -10384,7 +10671,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="205.74" x2="154.94" y2="205.74" width="0.1524" layer="91"/>
 <label x="154.94" y="205.74" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="DAC0"/>
+<pinref part="TEENSY" gate="G$1" pin="DAC0"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="6"/>
+<wire x1="292.1" y1="152.4" x2="289.56" y2="152.4" width="0.1524" layer="91"/>
+<label x="289.56" y="152.4" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AN8" class="3">
@@ -10401,7 +10693,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="218.44" x2="154.94" y2="218.44" width="0.1524" layer="91"/>
 <label x="154.94" y="218.44" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="15/A1/CS0-4/T"/>
+<pinref part="TEENSY" gate="G$1" pin="15/A1/CS0-4/T"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="7"/>
+<wire x1="292.1" y1="149.86" x2="289.56" y2="149.86" width="0.1524" layer="91"/>
+<label x="289.56" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AN9" class="3">
@@ -10418,7 +10715,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="208.28" x2="154.94" y2="208.28" width="0.1524" layer="91"/>
 <label x="154.94" y="208.28" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="DAC1"/>
+<pinref part="TEENSY" gate="G$1" pin="DAC1"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="8"/>
+<wire x1="292.1" y1="147.32" x2="289.56" y2="147.32" width="0.1524" layer="91"/>
+<label x="289.56" y="147.32" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AN10" class="3">
@@ -10435,7 +10737,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="226.06" x2="154.94" y2="226.06" width="0.1524" layer="91"/>
 <label x="154.94" y="226.06" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="18/A4/PWM/T/SDA0"/>
+<pinref part="TEENSY" gate="G$1" pin="18/A4/PWM/T/SDA0"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="9"/>
+<wire x1="292.1" y1="144.78" x2="289.56" y2="144.78" width="0.1524" layer="91"/>
+<label x="289.56" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AN11" class="3">
@@ -10452,7 +10759,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="99.06" y1="175.26" x2="109.22" y2="175.26" width="0.1524" layer="91"/>
 <label x="109.22" y="175.26" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="50/A24"/>
+<pinref part="TEENSY" gate="G$1" pin="50/A24"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="10"/>
+<wire x1="292.1" y1="142.24" x2="289.56" y2="142.24" width="0.1524" layer="91"/>
+<label x="289.56" y="142.24" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AN12" class="3">
@@ -10469,7 +10781,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="99.06" y1="172.72" x2="109.22" y2="172.72" width="0.1524" layer="91"/>
 <label x="109.22" y="172.72" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="49/A23"/>
+<pinref part="TEENSY" gate="G$1" pin="49/A23"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="11"/>
+<wire x1="292.1" y1="139.7" x2="289.56" y2="139.7" width="0.1524" layer="91"/>
+<label x="289.56" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -10619,7 +10936,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="50.8" y1="177.8" x2="38.1" y2="177.8" width="0.1524" layer="91"/>
 <label x="38.1" y="177.8" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="42"/>
+<pinref part="TEENSY" gate="G$1" pin="42"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="24"/>
+<wire x1="292.1" y1="106.68" x2="289.56" y2="106.68" width="0.1524" layer="91"/>
+<label x="289.56" y="106.68" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B14" class="0">
@@ -10631,7 +10953,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="99.06" y1="177.8" x2="109.22" y2="177.8" width="0.1524" layer="91"/>
 <label x="109.22" y="177.8" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="51/MISO2"/>
+<pinref part="TEENSY" gate="G$1" pin="51/MISO2"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="25"/>
+<wire x1="292.1" y1="104.14" x2="289.56" y2="104.14" width="0.1524" layer="91"/>
+<label x="289.56" y="104.14" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B15" class="0">
@@ -10643,7 +10970,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="198.12" x2="15.24" y2="198.12" width="0.1524" layer="91"/>
 <label x="15.24" y="198.12" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="28/ALT-MOSI0"/>
+<pinref part="TEENSY" gate="G$1" pin="28/ALT-MOSI0"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="26"/>
+<wire x1="292.1" y1="101.6" x2="289.56" y2="101.6" width="0.1524" layer="91"/>
+<label x="289.56" y="101.6" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="JOYV1" class="3">
@@ -10655,7 +10987,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="137.16" y1="149.86" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
 <label x="154.94" y="149.86" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="A10"/>
+<pinref part="TEENSY" gate="G$1" pin="A10"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="28"/>
+<wire x1="292.1" y1="96.52" x2="289.56" y2="96.52" width="0.1524" layer="91"/>
+<label x="289.56" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="JOYH1" class="3">
@@ -10667,7 +11004,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="137.16" y1="152.4" x2="154.94" y2="152.4" width="0.1524" layer="91"/>
 <label x="154.94" y="152.4" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="A11"/>
+<pinref part="TEENSY" gate="G$1" pin="A11"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="30"/>
+<wire x1="292.1" y1="91.44" x2="289.56" y2="91.44" width="0.1524" layer="91"/>
+<label x="289.56" y="91.44" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="JOYB1" class="0">
@@ -10679,7 +11021,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="99.06" y1="167.64" x2="109.22" y2="167.64" width="0.1524" layer="91"/>
 <label x="109.22" y="167.64" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="47/SCL0/RX6"/>
+<pinref part="TEENSY" gate="G$1" pin="47/SCL0/RX6"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="32"/>
+<wire x1="292.1" y1="86.36" x2="289.56" y2="86.36" width="0.1524" layer="91"/>
+<label x="289.56" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="JOYB2" class="0">
@@ -10691,7 +11038,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="50.8" y1="172.72" x2="38.1" y2="172.72" width="0.1524" layer="91"/>
 <label x="38.1" y="172.72" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="44/MOSI2"/>
+<pinref part="TEENSY" gate="G$1" pin="44/MOSI2"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="33"/>
+<wire x1="292.1" y1="83.82" x2="289.56" y2="83.82" width="0.1524" layer="91"/>
+<label x="289.56" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LED2" class="0">
@@ -10703,7 +11055,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="99.06" y1="259.08" x2="109.22" y2="259.08" width="0.1524" layer="91"/>
 <label x="109.22" y="259.08" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="57/SCL3"/>
+<pinref part="TEENSY" gate="G$1" pin="57/SCL3"/>
 </segment>
 </net>
 <net name="LED4" class="0">
@@ -10715,7 +11067,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="99.06" y1="182.88" x2="109.22" y2="182.88" width="0.1524" layer="91"/>
 <label x="109.22" y="182.88" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="53/PWM/SCK2"/>
+<pinref part="TEENSY" gate="G$1" pin="53/PWM/SCK2"/>
 </segment>
 </net>
 <net name="LED5" class="0">
@@ -10727,7 +11079,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="50.8" y1="180.34" x2="38.1" y2="180.34" width="0.1524" layer="91"/>
 <label x="38.1" y="180.34" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="41"/>
+<pinref part="TEENSY" gate="G$1" pin="41"/>
 </segment>
 </net>
 <net name="PWM_1" class="0">
@@ -10741,12 +11093,17 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="RN1" gate="H" pin="2"/>
 <wire x1="71.12" y1="50.8" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="12"/>
+<wire x1="350.52" y1="137.16" x2="347.98" y2="137.16" width="0.1524" layer="91"/>
+<label x="347.98" y="137.16" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM1" class="0">
 <segment>
 <wire x1="25.4" y1="236.22" x2="15.24" y2="236.22" width="0.1524" layer="91"/>
 <label x="15.24" y="236.22" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="3/PWM/SCL2/CAN0TX"/>
+<pinref part="TEENSY" gate="G$1" pin="3/PWM/SCL2/CAN0TX"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="I7"/>
@@ -10758,7 +11115,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="238.76" x2="15.24" y2="238.76" width="0.1524" layer="91"/>
 <label x="15.24" y="238.76" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="2/PWM"/>
+<pinref part="TEENSY" gate="G$1" pin="2/PWM"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="I8"/>
@@ -10775,7 +11132,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="231.14" x2="15.24" y2="231.14" width="0.1524" layer="91"/>
 <label x="15.24" y="231.14" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="5/PWM/ALT-TX1/ALT-MISO1"/>
+<pinref part="TEENSY" gate="G$1" pin="5/PWM/ALT-TX1/ALT-MISO1"/>
 </segment>
 </net>
 <net name="PWM4" class="0">
@@ -10787,7 +11144,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="233.68" x2="15.24" y2="233.68" width="0.1524" layer="91"/>
 <label x="15.24" y="233.68" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="4/PWM/SDA2/CAN0RX"/>
+<pinref part="TEENSY" gate="G$1" pin="4/PWM/SDA2/CAN0RX"/>
 </segment>
 </net>
 <net name="PWM5" class="0">
@@ -10799,7 +11156,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="228.6" x2="15.24" y2="228.6" width="0.1524" layer="91"/>
 <label x="15.24" y="228.6" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="6/PWM"/>
+<pinref part="TEENSY" gate="G$1" pin="6/PWM"/>
 </segment>
 </net>
 <net name="PWM6" class="0">
@@ -10811,14 +11168,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="226.06" x2="15.24" y2="226.06" width="0.1524" layer="91"/>
 <label x="15.24" y="226.06" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="7/PWM/RX3/ALT-SCL0/ALT-MOSI0"/>
+<pinref part="TEENSY" gate="G$1" pin="7/PWM/RX3/ALT-SCL0/ALT-MOSI0"/>
 </segment>
 </net>
 <net name="PWM7" class="0">
 <segment>
 <wire x1="25.4" y1="220.98" x2="15.24" y2="220.98" width="0.1524" layer="91"/>
 <label x="15.24" y="220.98" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="9/PWM/RX2/CS0-1"/>
+<pinref part="TEENSY" gate="G$1" pin="9/PWM/RX2/CS0-1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="I1"/>
@@ -10830,7 +11187,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="223.52" x2="15.24" y2="223.52" width="0.1524" layer="91"/>
 <label x="15.24" y="223.52" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="8/PWM/TX3/ALT-SDA0/ALT-MISO0"/>
+<pinref part="TEENSY" gate="G$1" pin="8/PWM/TX3/ALT-SDA0/ALT-MISO0"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="I2"/>
@@ -10842,7 +11199,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="218.44" x2="15.24" y2="218.44" width="0.1524" layer="91"/>
 <label x="15.24" y="218.44" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="10/PWM/TX2/CS0-0"/>
+<pinref part="TEENSY" gate="G$1" pin="10/PWM/TX2/CS0-0"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="I7"/>
@@ -10859,7 +11216,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="223.52" x2="154.94" y2="223.52" width="0.1524" layer="91"/>
 <label x="154.94" y="223.52" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="17/A3/PWM/T/ALT-SDA0"/>
+<pinref part="TEENSY" gate="G$1" pin="17/A3/PWM/T/ALT-SDA0"/>
 </segment>
 </net>
 <net name="PWM11" class="0">
@@ -10871,7 +11228,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="220.98" x2="154.94" y2="220.98" width="0.1524" layer="91"/>
 <label x="154.94" y="220.98" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="16/A2/PWM/T/ALT-SCL0"/>
+<pinref part="TEENSY" gate="G$1" pin="16/A2/PWM/T/ALT-SCL0"/>
 </segment>
 </net>
 <net name="PWM12" class="0">
@@ -10883,7 +11240,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="215.9" x2="154.94" y2="215.9" width="0.1524" layer="91"/>
 <label x="154.94" y="215.9" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="14/A0/PWM/ALT-SCK0"/>
+<pinref part="TEENSY" gate="G$1" pin="14/A0/PWM/ALT-SCK0"/>
 </segment>
 </net>
 <net name="PWM_2" class="0">
@@ -10897,6 +11254,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="RN1" gate="G" pin="2"/>
 <wire x1="71.12" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="13"/>
+<wire x1="350.52" y1="134.62" x2="347.98" y2="134.62" width="0.1524" layer="91"/>
+<label x="347.98" y="134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_3" class="0">
 <segment>
@@ -10908,6 +11270,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="78.74" y="55.88" size="1.016" layer="95" xref="yes"/>
 <pinref part="RN1" gate="F" pin="2"/>
 <wire x1="71.12" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="14"/>
+<wire x1="350.52" y1="132.08" x2="347.98" y2="132.08" width="0.1524" layer="91"/>
+<label x="347.98" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM_4" class="0">
@@ -10921,6 +11288,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="RN1" gate="E" pin="2"/>
 <wire x1="71.12" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="15"/>
+<wire x1="350.52" y1="129.54" x2="347.98" y2="129.54" width="0.1524" layer="91"/>
+<label x="347.98" y="129.54" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_5" class="0">
 <segment>
@@ -10933,6 +11305,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="J3" gate="G$1" pin="25"/>
 <wire x1="121.92" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="16"/>
+<wire x1="350.52" y1="127" x2="347.98" y2="127" width="0.1524" layer="91"/>
+<label x="347.98" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_6" class="0">
 <segment>
@@ -10943,6 +11320,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="139.7" y1="63.5" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
 <label x="144.78" y="63.5" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="17"/>
+<wire x1="350.52" y1="124.46" x2="347.98" y2="124.46" width="0.1524" layer="91"/>
+<label x="347.98" y="124.46" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM_7" class="0">
@@ -10956,6 +11338,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="RN1" gate="B" pin="2"/>
 <wire x1="71.12" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="18"/>
+<wire x1="350.52" y1="121.92" x2="347.98" y2="121.92" width="0.1524" layer="91"/>
+<label x="347.98" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_8" class="0">
 <segment>
@@ -10968,6 +11355,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="RN1" gate="A" pin="2"/>
 <wire x1="71.12" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="19"/>
+<wire x1="350.52" y1="119.38" x2="347.98" y2="119.38" width="0.1524" layer="91"/>
+<label x="347.98" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM13" class="0">
 <segment>
@@ -10978,7 +11370,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="195.58" x2="15.24" y2="195.58" width="0.1524" layer="91"/>
 <label x="15.24" y="195.58" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="29/PWM/T/ALT-CAN0TX"/>
+<pinref part="TEENSY" gate="G$1" pin="29/PWM/T/ALT-CAN0TX"/>
 </segment>
 </net>
 <net name="PWM14" class="0">
@@ -10990,7 +11382,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="25.4" y1="193.04" x2="15.24" y2="193.04" width="0.1524" layer="91"/>
 <label x="15.24" y="193.04" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="30/PWM/T/ALT-CAN0RX"/>
+<pinref part="TEENSY" gate="G$1" pin="30/PWM/T/ALT-CAN0RX"/>
 </segment>
 </net>
 <net name="PWM15" class="0">
@@ -11002,7 +11394,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="200.66" x2="154.94" y2="200.66" width="0.1524" layer="91"/>
 <label x="154.94" y="200.66" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="38/A19/PWM/SDA1"/>
+<pinref part="TEENSY" gate="G$1" pin="38/A19/PWM/SDA1"/>
 </segment>
 </net>
 <net name="PWM16" class="0">
@@ -11014,7 +11406,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="198.12" x2="154.94" y2="198.12" width="0.1524" layer="91"/>
 <label x="154.94" y="198.12" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="37/A18/PWM/SCL1"/>
+<pinref part="TEENSY" gate="G$1" pin="37/A18/PWM/SCL1"/>
 </segment>
 </net>
 <net name="PWM_9" class="0">
@@ -11028,6 +11420,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="RN2" gate="H" pin="2"/>
 <wire x1="71.12" y1="17.78" x2="78.74" y2="17.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="20"/>
+<wire x1="350.52" y1="116.84" x2="347.98" y2="116.84" width="0.1524" layer="91"/>
+<label x="347.98" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_10" class="0">
 <segment>
@@ -11039,6 +11436,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="78.74" y="20.32" size="1.016" layer="95" xref="yes"/>
 <pinref part="RN2" gate="G" pin="2"/>
 <wire x1="71.12" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="21"/>
+<wire x1="350.52" y1="114.3" x2="347.98" y2="114.3" width="0.1524" layer="91"/>
+<label x="347.98" y="114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM_11" class="0">
@@ -11052,6 +11454,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="RN2" gate="E" pin="2"/>
 <wire x1="71.12" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="22"/>
+<wire x1="350.52" y1="111.76" x2="347.98" y2="111.76" width="0.1524" layer="91"/>
+<label x="347.98" y="111.76" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_12" class="0">
 <segment>
@@ -11063,6 +11470,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="78.74" y="22.86" size="1.016" layer="95" xref="yes"/>
 <pinref part="RN2" gate="F" pin="2"/>
 <wire x1="71.12" y1="22.86" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="23"/>
+<wire x1="350.52" y1="109.22" x2="347.98" y2="109.22" width="0.1524" layer="91"/>
+<label x="347.98" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM_13" class="0">
@@ -11076,6 +11488,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="177.8" y1="93.98" x2="175.26" y2="93.98" width="0.1524" layer="91"/>
 <label x="175.26" y="93.98" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="24"/>
+<wire x1="350.52" y1="106.68" x2="347.98" y2="106.68" width="0.1524" layer="91"/>
+<label x="347.98" y="106.68" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_14" class="0">
 <segment>
@@ -11087,6 +11504,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="S6" gate="G$1" pin="C"/>
 <wire x1="177.8" y1="71.12" x2="175.26" y2="71.12" width="0.1524" layer="91"/>
 <label x="175.26" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="25"/>
+<wire x1="350.52" y1="104.14" x2="347.98" y2="104.14" width="0.1524" layer="91"/>
+<label x="347.98" y="104.14" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM_15" class="0">
@@ -11100,6 +11522,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="177.8" y1="45.72" x2="175.26" y2="45.72" width="0.1524" layer="91"/>
 <label x="175.26" y="45.72" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="26"/>
+<wire x1="350.52" y1="101.6" x2="347.98" y2="101.6" width="0.1524" layer="91"/>
+<label x="347.98" y="101.6" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_16" class="0">
 <segment>
@@ -11112,6 +11539,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="177.8" y1="22.86" x2="175.26" y2="22.86" width="0.1524" layer="91"/>
 <label x="175.26" y="22.86" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="27"/>
+<wire x1="350.52" y1="99.06" x2="347.98" y2="99.06" width="0.1524" layer="91"/>
+<label x="347.98" y="99.06" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="B16" class="0">
 <segment>
@@ -11122,7 +11554,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="144.78" y1="213.36" x2="154.94" y2="213.36" width="0.1524" layer="91"/>
 <label x="154.94" y="213.36" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="13/LED/ALT-PWM/SCK0"/>
+<pinref part="TEENSY" gate="G$1" pin="13/LED/ALT-PWM/SCK0"/>
+</segment>
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="27"/>
+<wire x1="292.1" y1="99.06" x2="289.56" y2="99.06" width="0.1524" layer="91"/>
+<label x="289.56" y="99.06" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -11134,7 +11571,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="99.06" y1="254" x2="109.22" y2="254" width="0.1524" layer="91"/>
 <label x="109.22" y="254" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="55"/>
+<pinref part="TEENSY" gate="G$1" pin="55"/>
 </segment>
 </net>
 <net name="LED6" class="0">
@@ -11146,7 +11583,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="50.8" y1="175.26" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
 <label x="38.1" y="175.26" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="43/CS2-0"/>
+<pinref part="TEENSY" gate="G$1" pin="43/CS2-0"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -11161,6 +11598,1230 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="236.22" x2="243.84" y2="236.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="0"/>
+<wire x1="350.52" y1="167.64" x2="347.98" y2="167.64" width="0.1524" layer="91"/>
+<label x="347.98" y="167.64" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="1"/>
+<wire x1="350.52" y1="165.1" x2="347.98" y2="165.1" width="0.1524" layer="91"/>
+<label x="347.98" y="165.1" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="2"/>
+<wire x1="350.52" y1="162.56" x2="347.98" y2="162.56" width="0.1524" layer="91"/>
+<label x="347.98" y="162.56" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="3"/>
+<wire x1="350.52" y1="160.02" x2="347.98" y2="160.02" width="0.1524" layer="91"/>
+<label x="347.98" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="4"/>
+<wire x1="350.52" y1="157.48" x2="347.98" y2="157.48" width="0.1524" layer="91"/>
+<label x="347.98" y="157.48" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="5"/>
+<wire x1="350.52" y1="154.94" x2="347.98" y2="154.94" width="0.1524" layer="91"/>
+<label x="347.98" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="6"/>
+<wire x1="350.52" y1="152.4" x2="347.98" y2="152.4" width="0.1524" layer="91"/>
+<label x="347.98" y="152.4" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="7"/>
+<wire x1="350.52" y1="149.86" x2="347.98" y2="149.86" width="0.1524" layer="91"/>
+<label x="347.98" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="8"/>
+<wire x1="350.52" y1="147.32" x2="347.98" y2="147.32" width="0.1524" layer="91"/>
+<label x="347.98" y="147.32" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="9"/>
+<wire x1="350.52" y1="144.78" x2="347.98" y2="144.78" width="0.1524" layer="91"/>
+<label x="347.98" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="10"/>
+<wire x1="350.52" y1="142.24" x2="347.98" y2="142.24" width="0.1524" layer="91"/>
+<label x="347.98" y="142.24" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="11"/>
+<wire x1="350.52" y1="139.7" x2="347.98" y2="139.7" width="0.1524" layer="91"/>
+<label x="347.98" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="28"/>
+<wire x1="350.52" y1="96.52" x2="347.98" y2="96.52" width="0.1524" layer="91"/>
+<label x="347.98" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="29"/>
+<wire x1="350.52" y1="93.98" x2="347.98" y2="93.98" width="0.1524" layer="91"/>
+<label x="347.98" y="93.98" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="30"/>
+<wire x1="350.52" y1="91.44" x2="347.98" y2="91.44" width="0.1524" layer="91"/>
+<label x="347.98" y="91.44" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="31"/>
+<wire x1="350.52" y1="88.9" x2="347.98" y2="88.9" width="0.1524" layer="91"/>
+<label x="347.98" y="88.9" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="32"/>
+<wire x1="350.52" y1="86.36" x2="347.98" y2="86.36" width="0.1524" layer="91"/>
+<label x="347.98" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$52" class="0">
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="33"/>
+<wire x1="350.52" y1="83.82" x2="347.98" y2="83.82" width="0.1524" layer="91"/>
+<label x="347.98" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$53" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="34"/>
+<wire x1="292.1" y1="81.28" x2="289.56" y2="81.28" width="0.1524" layer="91"/>
+<label x="289.56" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$54" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="35"/>
+<wire x1="292.1" y1="78.74" x2="289.56" y2="78.74" width="0.1524" layer="91"/>
+<label x="289.56" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$55" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="36"/>
+<wire x1="292.1" y1="76.2" x2="289.56" y2="76.2" width="0.1524" layer="91"/>
+<label x="289.56" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$56" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="37"/>
+<wire x1="292.1" y1="73.66" x2="289.56" y2="73.66" width="0.1524" layer="91"/>
+<label x="289.56" y="73.66" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$57" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="38"/>
+<wire x1="292.1" y1="71.12" x2="289.56" y2="71.12" width="0.1524" layer="91"/>
+<label x="289.56" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$58" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="39"/>
+<wire x1="292.1" y1="68.58" x2="289.56" y2="68.58" width="0.1524" layer="91"/>
+<label x="289.56" y="68.58" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$59" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="40"/>
+<wire x1="292.1" y1="66.04" x2="289.56" y2="66.04" width="0.1524" layer="91"/>
+<label x="289.56" y="66.04" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="40"/>
+<wire x1="350.52" y1="66.04" x2="347.98" y2="66.04" width="0.1524" layer="91"/>
+<label x="347.98" y="66.04" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$60" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="41"/>
+<wire x1="292.1" y1="63.5" x2="289.56" y2="63.5" width="0.1524" layer="91"/>
+<label x="289.56" y="63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="41"/>
+<wire x1="350.52" y1="63.5" x2="347.98" y2="63.5" width="0.1524" layer="91"/>
+<label x="347.98" y="63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$61" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="42"/>
+<wire x1="292.1" y1="60.96" x2="289.56" y2="60.96" width="0.1524" layer="91"/>
+<label x="289.56" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="42"/>
+<wire x1="350.52" y1="60.96" x2="347.98" y2="60.96" width="0.1524" layer="91"/>
+<label x="347.98" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$62" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="43"/>
+<wire x1="292.1" y1="58.42" x2="289.56" y2="58.42" width="0.1524" layer="91"/>
+<label x="289.56" y="58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="43"/>
+<wire x1="350.52" y1="58.42" x2="347.98" y2="58.42" width="0.1524" layer="91"/>
+<label x="347.98" y="58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$63" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="44"/>
+<wire x1="292.1" y1="55.88" x2="289.56" y2="55.88" width="0.1524" layer="91"/>
+<label x="289.56" y="55.88" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="44"/>
+<wire x1="350.52" y1="55.88" x2="347.98" y2="55.88" width="0.1524" layer="91"/>
+<label x="347.98" y="55.88" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$64" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="45"/>
+<wire x1="292.1" y1="53.34" x2="289.56" y2="53.34" width="0.1524" layer="91"/>
+<label x="289.56" y="53.34" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="45"/>
+<wire x1="350.52" y1="53.34" x2="347.98" y2="53.34" width="0.1524" layer="91"/>
+<label x="347.98" y="53.34" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$65" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="46"/>
+<wire x1="292.1" y1="50.8" x2="289.56" y2="50.8" width="0.1524" layer="91"/>
+<label x="289.56" y="50.8" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="46"/>
+<wire x1="350.52" y1="50.8" x2="347.98" y2="50.8" width="0.1524" layer="91"/>
+<label x="347.98" y="50.8" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="47"/>
+<wire x1="292.1" y1="48.26" x2="289.56" y2="48.26" width="0.1524" layer="91"/>
+<label x="289.56" y="48.26" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="47"/>
+<wire x1="350.52" y1="48.26" x2="347.98" y2="48.26" width="0.1524" layer="91"/>
+<label x="347.98" y="48.26" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$67" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="48"/>
+<wire x1="292.1" y1="45.72" x2="289.56" y2="45.72" width="0.1524" layer="91"/>
+<label x="289.56" y="45.72" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="48"/>
+<wire x1="350.52" y1="45.72" x2="347.98" y2="45.72" width="0.1524" layer="91"/>
+<label x="347.98" y="45.72" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$68" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="49"/>
+<wire x1="292.1" y1="43.18" x2="289.56" y2="43.18" width="0.1524" layer="91"/>
+<label x="289.56" y="43.18" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="49"/>
+<wire x1="350.52" y1="43.18" x2="347.98" y2="43.18" width="0.1524" layer="91"/>
+<label x="347.98" y="43.18" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$69" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="50"/>
+<wire x1="292.1" y1="40.64" x2="289.56" y2="40.64" width="0.1524" layer="91"/>
+<label x="289.56" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="50"/>
+<wire x1="350.52" y1="40.64" x2="347.98" y2="40.64" width="0.1524" layer="91"/>
+<label x="347.98" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$70" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="51"/>
+<wire x1="292.1" y1="38.1" x2="289.56" y2="38.1" width="0.1524" layer="91"/>
+<label x="289.56" y="38.1" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="51"/>
+<wire x1="350.52" y1="38.1" x2="347.98" y2="38.1" width="0.1524" layer="91"/>
+<label x="347.98" y="38.1" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$71" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="52"/>
+<wire x1="292.1" y1="35.56" x2="289.56" y2="35.56" width="0.1524" layer="91"/>
+<label x="289.56" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="52"/>
+<wire x1="350.52" y1="35.56" x2="347.98" y2="35.56" width="0.1524" layer="91"/>
+<label x="347.98" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$72" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="53"/>
+<wire x1="292.1" y1="33.02" x2="289.56" y2="33.02" width="0.1524" layer="91"/>
+<label x="289.56" y="33.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="53"/>
+<wire x1="350.52" y1="33.02" x2="347.98" y2="33.02" width="0.1524" layer="91"/>
+<label x="347.98" y="33.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$73" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="54"/>
+<wire x1="292.1" y1="30.48" x2="289.56" y2="30.48" width="0.1524" layer="91"/>
+<label x="289.56" y="30.48" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="54"/>
+<wire x1="350.52" y1="30.48" x2="347.98" y2="30.48" width="0.1524" layer="91"/>
+<label x="347.98" y="30.48" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$74" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="55"/>
+<wire x1="292.1" y1="27.94" x2="289.56" y2="27.94" width="0.1524" layer="91"/>
+<label x="289.56" y="27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="55"/>
+<wire x1="350.52" y1="27.94" x2="347.98" y2="27.94" width="0.1524" layer="91"/>
+<label x="347.98" y="27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$75" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="56"/>
+<wire x1="292.1" y1="25.4" x2="289.56" y2="25.4" width="0.1524" layer="91"/>
+<label x="289.56" y="25.4" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="56"/>
+<wire x1="350.52" y1="25.4" x2="347.98" y2="25.4" width="0.1524" layer="91"/>
+<label x="347.98" y="25.4" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$76" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="57"/>
+<wire x1="292.1" y1="22.86" x2="289.56" y2="22.86" width="0.1524" layer="91"/>
+<label x="289.56" y="22.86" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="57"/>
+<wire x1="350.52" y1="22.86" x2="347.98" y2="22.86" width="0.1524" layer="91"/>
+<label x="347.98" y="22.86" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$77" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="58"/>
+<wire x1="292.1" y1="20.32" x2="289.56" y2="20.32" width="0.1524" layer="91"/>
+<label x="289.56" y="20.32" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="58"/>
+<wire x1="350.52" y1="20.32" x2="347.98" y2="20.32" width="0.1524" layer="91"/>
+<label x="347.98" y="20.32" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$78" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="59"/>
+<wire x1="292.1" y1="17.78" x2="289.56" y2="17.78" width="0.1524" layer="91"/>
+<label x="289.56" y="17.78" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="59"/>
+<wire x1="350.52" y1="17.78" x2="347.98" y2="17.78" width="0.1524" layer="91"/>
+<label x="347.98" y="17.78" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$79" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="60"/>
+<wire x1="292.1" y1="15.24" x2="289.56" y2="15.24" width="0.1524" layer="91"/>
+<label x="289.56" y="15.24" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="60"/>
+<wire x1="350.52" y1="15.24" x2="347.98" y2="15.24" width="0.1524" layer="91"/>
+<label x="347.98" y="15.24" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$80" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="61"/>
+<wire x1="292.1" y1="12.7" x2="289.56" y2="12.7" width="0.1524" layer="91"/>
+<label x="289.56" y="12.7" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="61"/>
+<wire x1="350.52" y1="12.7" x2="347.98" y2="12.7" width="0.1524" layer="91"/>
+<label x="347.98" y="12.7" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$81" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="62"/>
+<wire x1="292.1" y1="10.16" x2="289.56" y2="10.16" width="0.1524" layer="91"/>
+<label x="289.56" y="10.16" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="62"/>
+<wire x1="350.52" y1="10.16" x2="347.98" y2="10.16" width="0.1524" layer="91"/>
+<label x="347.98" y="10.16" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$82" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="63"/>
+<wire x1="292.1" y1="7.62" x2="289.56" y2="7.62" width="0.1524" layer="91"/>
+<label x="289.56" y="7.62" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="63"/>
+<wire x1="350.52" y1="7.62" x2="347.98" y2="7.62" width="0.1524" layer="91"/>
+<label x="347.98" y="7.62" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$83" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="64"/>
+<wire x1="322.58" y1="7.62" x2="325.12" y2="7.62" width="0.1524" layer="91"/>
+<label x="325.12" y="7.62" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="64"/>
+<wire x1="381" y1="7.62" x2="383.54" y2="7.62" width="0.1524" layer="91"/>
+<label x="383.54" y="7.62" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$84" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="65"/>
+<wire x1="322.58" y1="10.16" x2="325.12" y2="10.16" width="0.1524" layer="91"/>
+<label x="325.12" y="10.16" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="65"/>
+<wire x1="381" y1="10.16" x2="383.54" y2="10.16" width="0.1524" layer="91"/>
+<label x="383.54" y="10.16" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$85" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="66"/>
+<wire x1="322.58" y1="12.7" x2="325.12" y2="12.7" width="0.1524" layer="91"/>
+<label x="325.12" y="12.7" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="66"/>
+<wire x1="381" y1="12.7" x2="383.54" y2="12.7" width="0.1524" layer="91"/>
+<label x="383.54" y="12.7" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$86" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="67"/>
+<wire x1="322.58" y1="15.24" x2="325.12" y2="15.24" width="0.1524" layer="91"/>
+<label x="325.12" y="15.24" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="67"/>
+<wire x1="381" y1="15.24" x2="383.54" y2="15.24" width="0.1524" layer="91"/>
+<label x="383.54" y="15.24" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$87" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="68"/>
+<wire x1="322.58" y1="17.78" x2="325.12" y2="17.78" width="0.1524" layer="91"/>
+<label x="325.12" y="17.78" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="68"/>
+<wire x1="381" y1="17.78" x2="383.54" y2="17.78" width="0.1524" layer="91"/>
+<label x="383.54" y="17.78" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$88" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="69"/>
+<wire x1="322.58" y1="20.32" x2="325.12" y2="20.32" width="0.1524" layer="91"/>
+<label x="325.12" y="20.32" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="69"/>
+<wire x1="381" y1="20.32" x2="383.54" y2="20.32" width="0.1524" layer="91"/>
+<label x="383.54" y="20.32" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$89" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="70"/>
+<wire x1="322.58" y1="22.86" x2="325.12" y2="22.86" width="0.1524" layer="91"/>
+<label x="325.12" y="22.86" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="70"/>
+<wire x1="381" y1="22.86" x2="383.54" y2="22.86" width="0.1524" layer="91"/>
+<label x="383.54" y="22.86" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$90" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="71"/>
+<wire x1="322.58" y1="25.4" x2="325.12" y2="25.4" width="0.1524" layer="91"/>
+<label x="325.12" y="25.4" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="71"/>
+<wire x1="381" y1="25.4" x2="383.54" y2="25.4" width="0.1524" layer="91"/>
+<label x="383.54" y="25.4" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$91" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="72"/>
+<wire x1="322.58" y1="27.94" x2="325.12" y2="27.94" width="0.1524" layer="91"/>
+<label x="325.12" y="27.94" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="72"/>
+<wire x1="381" y1="27.94" x2="383.54" y2="27.94" width="0.1524" layer="91"/>
+<label x="383.54" y="27.94" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$92" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="73"/>
+<wire x1="322.58" y1="30.48" x2="325.12" y2="30.48" width="0.1524" layer="91"/>
+<label x="325.12" y="30.48" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="73"/>
+<wire x1="381" y1="30.48" x2="383.54" y2="30.48" width="0.1524" layer="91"/>
+<label x="383.54" y="30.48" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$93" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="74"/>
+<wire x1="322.58" y1="33.02" x2="325.12" y2="33.02" width="0.1524" layer="91"/>
+<label x="325.12" y="33.02" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="74"/>
+<wire x1="381" y1="33.02" x2="383.54" y2="33.02" width="0.1524" layer="91"/>
+<label x="383.54" y="33.02" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$94" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="75"/>
+<wire x1="322.58" y1="35.56" x2="325.12" y2="35.56" width="0.1524" layer="91"/>
+<label x="325.12" y="35.56" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="75"/>
+<wire x1="381" y1="35.56" x2="383.54" y2="35.56" width="0.1524" layer="91"/>
+<label x="383.54" y="35.56" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$95" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="76"/>
+<wire x1="322.58" y1="38.1" x2="325.12" y2="38.1" width="0.1524" layer="91"/>
+<label x="325.12" y="38.1" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="76"/>
+<wire x1="381" y1="38.1" x2="383.54" y2="38.1" width="0.1524" layer="91"/>
+<label x="383.54" y="38.1" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$96" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="77"/>
+<wire x1="322.58" y1="40.64" x2="325.12" y2="40.64" width="0.1524" layer="91"/>
+<label x="325.12" y="40.64" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="77"/>
+<wire x1="381" y1="40.64" x2="383.54" y2="40.64" width="0.1524" layer="91"/>
+<label x="383.54" y="40.64" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$97" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="78"/>
+<wire x1="322.58" y1="43.18" x2="325.12" y2="43.18" width="0.1524" layer="91"/>
+<label x="325.12" y="43.18" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="78"/>
+<wire x1="381" y1="43.18" x2="383.54" y2="43.18" width="0.1524" layer="91"/>
+<label x="383.54" y="43.18" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$98" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="79"/>
+<wire x1="322.58" y1="45.72" x2="325.12" y2="45.72" width="0.1524" layer="91"/>
+<label x="325.12" y="45.72" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="79"/>
+<wire x1="381" y1="45.72" x2="383.54" y2="45.72" width="0.1524" layer="91"/>
+<label x="383.54" y="45.72" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$99" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="80"/>
+<wire x1="322.58" y1="48.26" x2="325.12" y2="48.26" width="0.1524" layer="91"/>
+<label x="325.12" y="48.26" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="80"/>
+<wire x1="381" y1="48.26" x2="383.54" y2="48.26" width="0.1524" layer="91"/>
+<label x="383.54" y="48.26" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$100" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="81"/>
+<wire x1="322.58" y1="50.8" x2="325.12" y2="50.8" width="0.1524" layer="91"/>
+<label x="325.12" y="50.8" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="81"/>
+<wire x1="381" y1="50.8" x2="383.54" y2="50.8" width="0.1524" layer="91"/>
+<label x="383.54" y="50.8" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$101" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="82"/>
+<wire x1="322.58" y1="53.34" x2="325.12" y2="53.34" width="0.1524" layer="91"/>
+<label x="325.12" y="53.34" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="82"/>
+<wire x1="381" y1="53.34" x2="383.54" y2="53.34" width="0.1524" layer="91"/>
+<label x="383.54" y="53.34" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$102" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="83"/>
+<wire x1="322.58" y1="55.88" x2="325.12" y2="55.88" width="0.1524" layer="91"/>
+<label x="325.12" y="55.88" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="83"/>
+<wire x1="381" y1="55.88" x2="383.54" y2="55.88" width="0.1524" layer="91"/>
+<label x="383.54" y="55.88" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$103" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="84"/>
+<wire x1="322.58" y1="58.42" x2="325.12" y2="58.42" width="0.1524" layer="91"/>
+<label x="325.12" y="58.42" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="84"/>
+<wire x1="381" y1="58.42" x2="383.54" y2="58.42" width="0.1524" layer="91"/>
+<label x="383.54" y="58.42" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$104" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="85"/>
+<wire x1="322.58" y1="60.96" x2="325.12" y2="60.96" width="0.1524" layer="91"/>
+<label x="325.12" y="60.96" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="85"/>
+<wire x1="381" y1="60.96" x2="383.54" y2="60.96" width="0.1524" layer="91"/>
+<label x="383.54" y="60.96" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$105" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="86"/>
+<wire x1="322.58" y1="63.5" x2="325.12" y2="63.5" width="0.1524" layer="91"/>
+<label x="325.12" y="63.5" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="86"/>
+<wire x1="381" y1="63.5" x2="383.54" y2="63.5" width="0.1524" layer="91"/>
+<label x="383.54" y="63.5" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$106" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="87"/>
+<wire x1="322.58" y1="66.04" x2="325.12" y2="66.04" width="0.1524" layer="91"/>
+<label x="325.12" y="66.04" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="87"/>
+<wire x1="381" y1="66.04" x2="383.54" y2="66.04" width="0.1524" layer="91"/>
+<label x="383.54" y="66.04" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$107" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="88"/>
+<wire x1="322.58" y1="68.58" x2="325.12" y2="68.58" width="0.1524" layer="91"/>
+<label x="325.12" y="68.58" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="88"/>
+<wire x1="381" y1="68.58" x2="383.54" y2="68.58" width="0.1524" layer="91"/>
+<label x="383.54" y="68.58" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$108" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="89"/>
+<wire x1="322.58" y1="71.12" x2="325.12" y2="71.12" width="0.1524" layer="91"/>
+<label x="325.12" y="71.12" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="89"/>
+<wire x1="381" y1="71.12" x2="383.54" y2="71.12" width="0.1524" layer="91"/>
+<label x="383.54" y="71.12" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$109" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="90"/>
+<wire x1="322.58" y1="73.66" x2="325.12" y2="73.66" width="0.1524" layer="91"/>
+<label x="325.12" y="73.66" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="90"/>
+<wire x1="381" y1="73.66" x2="383.54" y2="73.66" width="0.1524" layer="91"/>
+<label x="383.54" y="73.66" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$110" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="91"/>
+<wire x1="322.58" y1="76.2" x2="325.12" y2="76.2" width="0.1524" layer="91"/>
+<label x="325.12" y="76.2" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="91"/>
+<wire x1="381" y1="76.2" x2="383.54" y2="76.2" width="0.1524" layer="91"/>
+<label x="383.54" y="76.2" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$111" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="92"/>
+<wire x1="322.58" y1="78.74" x2="325.12" y2="78.74" width="0.1524" layer="91"/>
+<label x="325.12" y="78.74" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="92"/>
+<wire x1="381" y1="78.74" x2="383.54" y2="78.74" width="0.1524" layer="91"/>
+<label x="383.54" y="78.74" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$112" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="93"/>
+<wire x1="322.58" y1="81.28" x2="325.12" y2="81.28" width="0.1524" layer="91"/>
+<label x="325.12" y="81.28" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="93"/>
+<wire x1="381" y1="81.28" x2="383.54" y2="81.28" width="0.1524" layer="91"/>
+<label x="383.54" y="81.28" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$113" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="94"/>
+<wire x1="322.58" y1="83.82" x2="325.12" y2="83.82" width="0.1524" layer="91"/>
+<label x="325.12" y="83.82" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="94"/>
+<wire x1="381" y1="83.82" x2="383.54" y2="83.82" width="0.1524" layer="91"/>
+<label x="383.54" y="83.82" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$114" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="95"/>
+<wire x1="322.58" y1="86.36" x2="325.12" y2="86.36" width="0.1524" layer="91"/>
+<label x="325.12" y="86.36" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="95"/>
+<wire x1="381" y1="86.36" x2="383.54" y2="86.36" width="0.1524" layer="91"/>
+<label x="383.54" y="86.36" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$115" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="96"/>
+<wire x1="322.58" y1="88.9" x2="325.12" y2="88.9" width="0.1524" layer="91"/>
+<label x="325.12" y="88.9" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="96"/>
+<wire x1="381" y1="88.9" x2="383.54" y2="88.9" width="0.1524" layer="91"/>
+<label x="383.54" y="88.9" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$116" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="97"/>
+<wire x1="322.58" y1="91.44" x2="325.12" y2="91.44" width="0.1524" layer="91"/>
+<label x="325.12" y="91.44" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="97"/>
+<wire x1="381" y1="91.44" x2="383.54" y2="91.44" width="0.1524" layer="91"/>
+<label x="383.54" y="91.44" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$117" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="98"/>
+<wire x1="322.58" y1="93.98" x2="325.12" y2="93.98" width="0.1524" layer="91"/>
+<label x="325.12" y="93.98" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="98"/>
+<wire x1="381" y1="93.98" x2="383.54" y2="93.98" width="0.1524" layer="91"/>
+<label x="383.54" y="93.98" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$118" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="99"/>
+<wire x1="322.58" y1="96.52" x2="325.12" y2="96.52" width="0.1524" layer="91"/>
+<label x="325.12" y="96.52" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="99"/>
+<wire x1="381" y1="96.52" x2="383.54" y2="96.52" width="0.1524" layer="91"/>
+<label x="383.54" y="96.52" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$119" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="100"/>
+<wire x1="322.58" y1="99.06" x2="325.12" y2="99.06" width="0.1524" layer="91"/>
+<label x="325.12" y="99.06" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="100"/>
+<wire x1="381" y1="99.06" x2="383.54" y2="99.06" width="0.1524" layer="91"/>
+<label x="383.54" y="99.06" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$120" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="101"/>
+<wire x1="322.58" y1="101.6" x2="325.12" y2="101.6" width="0.1524" layer="91"/>
+<label x="325.12" y="101.6" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="101"/>
+<wire x1="381" y1="101.6" x2="383.54" y2="101.6" width="0.1524" layer="91"/>
+<label x="383.54" y="101.6" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$121" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="102"/>
+<wire x1="322.58" y1="104.14" x2="325.12" y2="104.14" width="0.1524" layer="91"/>
+<label x="325.12" y="104.14" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="102"/>
+<wire x1="381" y1="104.14" x2="383.54" y2="104.14" width="0.1524" layer="91"/>
+<label x="383.54" y="104.14" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$122" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="103"/>
+<wire x1="322.58" y1="106.68" x2="325.12" y2="106.68" width="0.1524" layer="91"/>
+<label x="325.12" y="106.68" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="103"/>
+<wire x1="381" y1="106.68" x2="383.54" y2="106.68" width="0.1524" layer="91"/>
+<label x="383.54" y="106.68" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$123" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="104"/>
+<wire x1="322.58" y1="109.22" x2="325.12" y2="109.22" width="0.1524" layer="91"/>
+<label x="325.12" y="109.22" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="104"/>
+<wire x1="381" y1="109.22" x2="383.54" y2="109.22" width="0.1524" layer="91"/>
+<label x="383.54" y="109.22" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$124" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="105"/>
+<wire x1="322.58" y1="111.76" x2="325.12" y2="111.76" width="0.1524" layer="91"/>
+<label x="325.12" y="111.76" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="105"/>
+<wire x1="381" y1="111.76" x2="383.54" y2="111.76" width="0.1524" layer="91"/>
+<label x="383.54" y="111.76" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$125" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="106"/>
+<wire x1="322.58" y1="114.3" x2="325.12" y2="114.3" width="0.1524" layer="91"/>
+<label x="325.12" y="114.3" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="106"/>
+<wire x1="381" y1="114.3" x2="383.54" y2="114.3" width="0.1524" layer="91"/>
+<label x="383.54" y="114.3" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$126" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="107"/>
+<wire x1="322.58" y1="116.84" x2="325.12" y2="116.84" width="0.1524" layer="91"/>
+<label x="325.12" y="116.84" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="107"/>
+<wire x1="381" y1="116.84" x2="383.54" y2="116.84" width="0.1524" layer="91"/>
+<label x="383.54" y="116.84" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$127" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="108"/>
+<wire x1="322.58" y1="119.38" x2="325.12" y2="119.38" width="0.1524" layer="91"/>
+<label x="325.12" y="119.38" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="108"/>
+<wire x1="381" y1="119.38" x2="383.54" y2="119.38" width="0.1524" layer="91"/>
+<label x="383.54" y="119.38" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$128" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="109"/>
+<wire x1="322.58" y1="121.92" x2="325.12" y2="121.92" width="0.1524" layer="91"/>
+<label x="325.12" y="121.92" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="109"/>
+<wire x1="381" y1="121.92" x2="383.54" y2="121.92" width="0.1524" layer="91"/>
+<label x="383.54" y="121.92" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$129" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="110"/>
+<wire x1="322.58" y1="124.46" x2="325.12" y2="124.46" width="0.1524" layer="91"/>
+<label x="325.12" y="124.46" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="110"/>
+<wire x1="381" y1="124.46" x2="383.54" y2="124.46" width="0.1524" layer="91"/>
+<label x="383.54" y="124.46" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$130" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="111"/>
+<wire x1="322.58" y1="127" x2="325.12" y2="127" width="0.1524" layer="91"/>
+<label x="325.12" y="127" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="111"/>
+<wire x1="381" y1="127" x2="383.54" y2="127" width="0.1524" layer="91"/>
+<label x="383.54" y="127" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$131" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="112"/>
+<wire x1="322.58" y1="129.54" x2="325.12" y2="129.54" width="0.1524" layer="91"/>
+<label x="325.12" y="129.54" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="112"/>
+<wire x1="381" y1="129.54" x2="383.54" y2="129.54" width="0.1524" layer="91"/>
+<label x="383.54" y="129.54" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$132" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="113"/>
+<wire x1="322.58" y1="132.08" x2="325.12" y2="132.08" width="0.1524" layer="91"/>
+<label x="325.12" y="132.08" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="113"/>
+<wire x1="381" y1="132.08" x2="383.54" y2="132.08" width="0.1524" layer="91"/>
+<label x="383.54" y="132.08" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$133" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="114"/>
+<wire x1="322.58" y1="134.62" x2="325.12" y2="134.62" width="0.1524" layer="91"/>
+<label x="325.12" y="134.62" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="114"/>
+<wire x1="381" y1="134.62" x2="383.54" y2="134.62" width="0.1524" layer="91"/>
+<label x="383.54" y="134.62" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$134" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="115"/>
+<wire x1="322.58" y1="137.16" x2="325.12" y2="137.16" width="0.1524" layer="91"/>
+<label x="325.12" y="137.16" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="115"/>
+<wire x1="381" y1="137.16" x2="383.54" y2="137.16" width="0.1524" layer="91"/>
+<label x="383.54" y="137.16" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$135" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="116"/>
+<wire x1="322.58" y1="139.7" x2="325.12" y2="139.7" width="0.1524" layer="91"/>
+<label x="325.12" y="139.7" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="116"/>
+<wire x1="381" y1="139.7" x2="383.54" y2="139.7" width="0.1524" layer="91"/>
+<label x="383.54" y="139.7" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$136" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="117"/>
+<wire x1="322.58" y1="142.24" x2="325.12" y2="142.24" width="0.1524" layer="91"/>
+<label x="325.12" y="142.24" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="117"/>
+<wire x1="381" y1="142.24" x2="383.54" y2="142.24" width="0.1524" layer="91"/>
+<label x="383.54" y="142.24" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$137" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="118"/>
+<wire x1="322.58" y1="144.78" x2="325.12" y2="144.78" width="0.1524" layer="91"/>
+<label x="325.12" y="144.78" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="118"/>
+<wire x1="381" y1="144.78" x2="383.54" y2="144.78" width="0.1524" layer="91"/>
+<label x="383.54" y="144.78" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$138" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="119"/>
+<wire x1="322.58" y1="147.32" x2="325.12" y2="147.32" width="0.1524" layer="91"/>
+<label x="325.12" y="147.32" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="119"/>
+<wire x1="381" y1="147.32" x2="383.54" y2="147.32" width="0.1524" layer="91"/>
+<label x="383.54" y="147.32" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$139" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="120"/>
+<wire x1="322.58" y1="149.86" x2="325.12" y2="149.86" width="0.1524" layer="91"/>
+<label x="325.12" y="149.86" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="120"/>
+<wire x1="381" y1="149.86" x2="383.54" y2="149.86" width="0.1524" layer="91"/>
+<label x="383.54" y="149.86" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$140" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="121"/>
+<wire x1="322.58" y1="152.4" x2="325.12" y2="152.4" width="0.1524" layer="91"/>
+<label x="325.12" y="152.4" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="121"/>
+<wire x1="381" y1="152.4" x2="383.54" y2="152.4" width="0.1524" layer="91"/>
+<label x="383.54" y="152.4" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$141" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="122"/>
+<wire x1="322.58" y1="154.94" x2="325.12" y2="154.94" width="0.1524" layer="91"/>
+<label x="325.12" y="154.94" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="122"/>
+<wire x1="381" y1="154.94" x2="383.54" y2="154.94" width="0.1524" layer="91"/>
+<label x="383.54" y="154.94" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$142" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="123"/>
+<wire x1="322.58" y1="157.48" x2="325.12" y2="157.48" width="0.1524" layer="91"/>
+<label x="325.12" y="157.48" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="123"/>
+<wire x1="381" y1="157.48" x2="383.54" y2="157.48" width="0.1524" layer="91"/>
+<label x="383.54" y="157.48" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$143" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="124"/>
+<wire x1="322.58" y1="160.02" x2="325.12" y2="160.02" width="0.1524" layer="91"/>
+<label x="325.12" y="160.02" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="124"/>
+<wire x1="381" y1="160.02" x2="383.54" y2="160.02" width="0.1524" layer="91"/>
+<label x="383.54" y="160.02" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$144" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="125"/>
+<wire x1="322.58" y1="162.56" x2="325.12" y2="162.56" width="0.1524" layer="91"/>
+<label x="325.12" y="162.56" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="125"/>
+<wire x1="381" y1="162.56" x2="383.54" y2="162.56" width="0.1524" layer="91"/>
+<label x="383.54" y="162.56" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$145" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="126"/>
+<wire x1="322.58" y1="165.1" x2="325.12" y2="165.1" width="0.1524" layer="91"/>
+<label x="325.12" y="165.1" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="126"/>
+<wire x1="381" y1="165.1" x2="383.54" y2="165.1" width="0.1524" layer="91"/>
+<label x="383.54" y="165.1" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$146" class="0">
+<segment>
+<pinref part="MIDI_IN" gate="G$1" pin="127"/>
+<wire x1="322.58" y1="167.64" x2="325.12" y2="167.64" width="0.1524" layer="91"/>
+<label x="325.12" y="167.64" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MIDI_OUT" gate="G$1" pin="127"/>
+<wire x1="381" y1="167.64" x2="383.54" y2="167.64" width="0.1524" layer="91"/>
+<label x="383.54" y="167.64" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

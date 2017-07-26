@@ -3,11 +3,11 @@
 -1 -1 0 1;
 #X obj 130 121 vsl 15 64 0 127 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
-#X obj 205 293 tgl 15 0 empty empty S2_Switch -12 22 0 8 -262144 -1
+#X obj 205 313 tgl 15 0 empty empty S2_Switch -12 22 0 8 -262144 -1
 -1 0 1;
-#X obj 130 293 tgl 15 0 empty empty S1_Switch -12 22 0 8 -262144 -1
+#X obj 130 313 tgl 15 0 empty empty S1_Switch -12 22 0 8 -262144 -1
 -1 0 1;
-#X obj 167 220 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 167 215 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 899 130 loadbang;
 #X obj 899 158 f \$1;
@@ -41,13 +41,13 @@
 #X obj 1299 362 notein;
 #X obj 1438 363 notein;
 #X obj 691 373 noteout;
-#X obj 180 261 hsl 63 15 0 127 0 0 empty empty S2_LED 18 22 0 8 -262144
+#X obj 180 266 hsl 63 15 0 127 0 0 empty empty S2_LED 18 22 0 8 -262144
 -1 -1 6200 1;
 #X obj 732 312 array get LEDS 0 1;
 #X obj 691 338 f;
 #X obj 691 312 t b f;
 #X obj 531 373 noteout;
-#X obj 106 261 hsl 63 15 0 127 0 0 empty empty S1_LED 18 22 0 8 -262144
+#X obj 106 266 hsl 63 15 0 127 0 0 empty empty S1_LED 18 22 0 8 -262144
 -1 -1 2800 1;
 #X obj 572 312 array get LEDS 0 1;
 #X obj 531 338 f;
@@ -66,9 +66,9 @@
 #X obj 902 267 + 12;
 #X obj 29 535 outlet;
 #X obj 16 9 inlet;
-#X text 129 332 S1;
-#X text 204 332 S2;
-#X text 160 236 LED1;
+#X text 129 354 S1;
+#X text 204 354 S2;
+#X text 160 231 LED1;
 #X text 195 189 Knob2;
 #X text 118 188 Knob1;
 #X msg 170 65 set \$1;
@@ -82,11 +82,11 @@
 #X obj 16 31 route /l1 /l2 /st;
 #X text 118 200 [/k1];
 #X text 195 200 [/k2];
-#X text 157 205 [/st];
-#X text 119 245 [/l1];
-#X text 193 245 [/l2];
-#X text 119 316 [/s1];
-#X text 195 316 [/s2];
+#X text 157 243 [/st];
+#X text 119 293 [/l1];
+#X text 193 293 [/l2];
+#X text 119 339 [/s1];
+#X text 195 339 [/s2];
 #X connect 0 0 67 0;
 #X connect 1 0 66 0;
 #X connect 2 0 70 0;
@@ -165,4 +165,4 @@
 #X connect 73 0 42 0;
 #X connect 73 1 37 0;
 #X connect 73 2 4 0;
-#X coords 0 -1 1 1 150 250 1 100 100;
+#X coords 0 -1 1 1 150 275 1 100 100;

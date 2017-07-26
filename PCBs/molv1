@@ -1,6 +1,6 @@
 Pinlist
 
-Exported from MOL-v1.brd at 2017-07-12 11:48 AM
+Exported from MOL-v1.1.brd at 2017-07-26 12:22 PM
 
 EAGLE Version 8.2.2 Copyright (c) 1988-2017 Autodesk, Inc.
 
@@ -61,27 +61,27 @@ J2       1        GND
          3        S2
 
 J3       1        +3V3
-         2        A1
+         2        AN1
          3        AGND
 
 J4       1        +3V3
-         2        A2
+         2        AN2
          3        AGND
 
 J5       1        +3V3
-         2        A5
+         2        AN5
          3        AGND
 
 J6       1        +3V3
-         2        A6
+         2        AN6
          3        AGND
 
 J7       1        +3V3
-         2        A9
+         2        AN9
          3        AGND
 
 J8       1        +3V3
-         2        A10
+         2        AN10
          3        AGND
 
 LED13    A        N$2
@@ -165,90 +165,90 @@ R20      P$1      N$22
 
 S1       1        GND
          2                 *** unconnected ***
-         3        B1
+         3        BTN1
          4                 *** unconnected ***
          A        N$1
          C        GND
 
 S2       1        GND
          2                 *** unconnected ***
-         3        B2
+         3        BTN2
          4                 *** unconnected ***
          A        N$8
          C        GND
 
 S3       1        GND
          2                 *** unconnected ***
-         3        B3
+         3        BTN3
          4                 *** unconnected ***
          A        N$9
          C        GND
 
 S4       1        GND
          2                 *** unconnected ***
-         3        B4
+         3        BTN4
          4                 *** unconnected ***
          A        N$10
          C        GND
 
 S5       1        GND
          2                 *** unconnected ***
-         3        B5
+         3        BTN5
          4                 *** unconnected ***
          A        N$19
          C        GND
 
 S6       1        GND
          2                 *** unconnected ***
-         3        B6
+         3        BTN6
          4                 *** unconnected ***
          A        N$20
          C        GND
 
 S7       1        GND
          2                 *** unconnected ***
-         3        B7
+         3        BTN7
          4                 *** unconnected ***
          A        N$21
          C        GND
 
 S8       1        GND
          2                 *** unconnected ***
-         3        B8
+         3        BTN8
          4                 *** unconnected ***
          A        N$22
          C        GND
 
 S9       1        GND
          2                 *** unconnected ***
-         3        B9
+         3        BTN9
          4                 *** unconnected ***
          A        N$15
          C        GND
 
 S10      1        GND
          2                 *** unconnected ***
-         3        B10
+         3        BTN10
          4                 *** unconnected ***
          A        N$16
          C        GND
 
 S11      1        GND
          2                 *** unconnected ***
-         3        B11
+         3        BTN11
          4                 *** unconnected ***
          A        N$17
          C        GND
 
 S12      1        GND
          2                 *** unconnected ***
-         3        B12
+         3        BTN12
          4                 *** unconnected ***
          A        N$18
          C        GND
 
-TEENSY   0        M_JOYB
-         1        S_JOYB
+TEENSY   0        JOY_BTN_M
+         1        JOY_BTN_S
          2        L1
          3        L2
          4        L3
@@ -260,46 +260,46 @@ TEENSY   0        M_JOYB
          P                 *** unconnected ***
          R                 *** unconnected ***
          10       S2
-         11       B1
-         12       B2
+         11       BTN1
+         12       BTN2
          13                *** unconnected ***
-         14       A1
-         15       A2
-         16       A3
-         17       M_JOYV
-         18       M_JOYH
-         19       S_JOYV
-         20       S_JOYH
-         21       M_PWMA
-         22       M_PWMB
+         14       AN1
+         15       AN2
+         16       AN3
+         17       JOY_AN_V_M
+         18       JOY_AN_H_M
+         19       JOY_AN_V_S
+         20       JOY_AN_H_S
+         21       M_PWM_A
+         22       M_PWM_B
          23       L8
-         24       B3
-         25       B4
-         26       B5
-         27       B6
-         28       B7
+         24       BTN3
+         25       BTN4
+         26       BTN5
+         27       BTN6
+         28       BTN7
          29       L9
          30       L10
          31       L11
          32       L12
-         33       A4
-         34       A5
-         35       A6
-         36       A7
-         37       L10
-         38       L11
-         39       A8
-         40       M_AIN
-         41       M_BIN
-         42       B8
-         43       B9
-         44       B10
-         45       B11
-         46       B12
+         33       AN4
+         34       AN5
+         35       AN6
+         36       AN7
+         37                *** unconnected ***
+         38                *** unconnected ***
+         39       AN8
+         40       M_A_IN
+         41       M_B_IN
+         42       BTN8
+         43       BTN9
+         44       BTN10
+         45       BTN11
+         46       BTN12
          47       I2C_SCL
          48       I2C_SDA
-         49       L12
-         50       L11
+         49                *** unconnected ***
+         50                *** unconnected ***
          51       U1
          52       U2
          53       U3
@@ -320,13 +320,13 @@ TEENSY   0        M_JOYB
          G4       GND
          G5       GND
          G6       GND
-         A10      A11
-         A11      A12
+         A10      AN11
+         A11      AN12
          VIN               *** unconnected ***
          AGND     AGND
          AREF              *** unconnected ***
-         DAC0     A9
-         DAC1     A10
+         DAC0     AN9
+         DAC1     AN10
          VBAT              *** unconnected ***
          VUSB              *** unconnected ***
          3V3(1)   +3V3
@@ -335,73 +335,73 @@ TEENSY   0        M_JOYB
          3V3(4)   +3V3
 
 TM1      1        +3V3
-         2        A1
+         2        AN1
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM2      1        +3V3
-         2        A2
+         2        AN2
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM3      1        +3V3
-         2        A3
+         2        AN3
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM4      1        +3V3
-         2        A4
+         2        AN4
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM5      1        +3V3
-         2        A5
+         2        AN5
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM6      1        +3V3
-         2        A6
+         2        AN6
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM7      1        +3V3
-         2        A7
+         2        AN7
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM8      1        +3V3
-         2        A8
+         2        AN8
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM9      1        +3V3
-         2        A9
+         2        AN9
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM10     1        +3V3
-         2        A10
+         2        AN10
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM11     1        +3V3
-         2        A11
+         2        AN11
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
 
 TM12     1        +3V3
-         2        A12
+         2        AN12
          3        AGND
          5                 *** unconnected ***
          M2                *** unconnected ***
@@ -412,31 +412,31 @@ U$7      AO1      N$54
          BO2      N$46
          GND      GND
          VCC      +3V3
-         AIN1     M_AIN
+         AIN1     M_A_IN
          AIN2     N$6
          BIN1     N$5
-         BIN2     M_BIN
+         BIN2     M_B_IN
          GND1     GND_MOT
          GND2     GND_MOT
-         PWMA     M_PWMA
-         PWMB     M_PWMB
+         PWMA     M_PWM_A
+         PWMB     M_PWM_B
          STBY     +3V3
          VMOT     VMOT
 
-U1       1        M_BIN
+U1       1        M_B_IN
          2        GND
-         3        M_AIN
+         3        M_A_IN
          4        N$6
          5        +3V3
          6        N$5
 
 U2       H1       +3V3
-         H2       M_JOYH
+         H2       JOY_AN_H_M
          H3       AGND
          V1       +3V3
-         V2       M_JOYV
+         V2       JOY_AN_V_M
          V3       AGND
-         B1A      M_JOYB
+         B1A      JOY_BTN_M
          B1B               *** unconnected ***
          B2A      AGND
          B2B               *** unconnected ***
@@ -446,12 +446,12 @@ U2       H1       +3V3
          MOUNT4            *** unconnected ***
 
 U3       H1       +3V3
-         H2       S_JOYH
+         H2       JOY_AN_H_S
          H3       AGND
          V1       +3V3
-         V2       S_JOYV
+         V2       JOY_AN_V_S
          V3       AGND
-         B1A      S_JOYB
+         B1A      JOY_BTN_S
          B1B               *** unconnected ***
          B2A      AGND
          B2B               *** unconnected ***
