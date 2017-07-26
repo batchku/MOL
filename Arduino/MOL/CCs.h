@@ -39,10 +39,10 @@ const int LEDCCs[]        = {64,
                              78,
                              79};
 //User LEDs MIDI CC #s (duplicate, also inside LEDCCs[])                     
-const int USRCCs[]        = {72,
-                             73,
-                             74,
-                             75};
+const int USRCCs[]        = {76,
+                             77,
+                             78,
+                             79};
                              
 const int SERVOCCs[]      = {12,
                              13};
